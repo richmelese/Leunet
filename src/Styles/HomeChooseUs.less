@@ -1,0 +1,72 @@
+.home_choose_us {
+
+    > * {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    margin-top: 10rem;
+
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    grid-column-gap: 4rem;
+    justify-content: space-between;
+
+    .image_section {
+        display: grid;
+        grid-template-columns: auto auto;
+        img {
+            max-width: 352px;
+        }
+
+        .lft {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-row-gap: 2rem;
+        }
+
+        .rit {
+            display: grid;
+            align-items: center;
+            grid-auto-flow: column;
+
+            div {
+                position: relative;
+                &:after {
+                    position: absolute;
+                    display: block;
+                    width: 190px;
+                    height: 160px;
+                    content: " ";
+                    background: url("./Assets/dotted-shape.png") right no-repeat;
+                    bottom: -40px;
+                    right: -15px;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+
+    .message_section {
+        display: grid;
+        align-items: center;
+
+        .small_title {
+            color: @solid-orange;
+            line-height: 24px;
+        }
+
+        h2 {
+            font-size: 35px;
+        }
+
+        .desc {
+            font-weight: 300;
+            color: @light-text;
+        }
+
+        button {
+            margin-top: 3rem;
+        }
+    }
+}

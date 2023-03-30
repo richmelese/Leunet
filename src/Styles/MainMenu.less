@@ -1,0 +1,55 @@
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    .menu_items_wrapper {
+        display: flex;
+
+        ul {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            padding: 0;
+
+            border-radius: 50px;
+            
+            li {
+                margin : 0 40px;
+                a {
+                    color: @white;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        button {
+            margin-left : 40px;
+            width: 150px;
+            background-color: @solid-orange;
+            color: @white;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            border : none;
+            border-radius: 50px;
+            height: 60px;
+        }
+    }
+}
+
+
+.App:has(.home) {
+    .main_menu {
+
+        .menu_items_wrapper { 
+            ul {
+                background: rgba(255, 255, 255, 0.1);
+            }
+
+            button { 
+                background-color: @white;
+                color: @default-text;
+
+            }
+        }
+    }
+}
