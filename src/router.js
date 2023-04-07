@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
+import Services from "./Pages/Services/Services";
 
 export const routeObject = [
     {
@@ -14,6 +15,12 @@ export const routeObject = [
         name: "about",
         element : <About />,
         isMainMenu: true
+    },
+    {
+        path: "/services",
+        name : "services",
+        element: <Services />,
+        isMainMenu : true
     }
 ];
 
