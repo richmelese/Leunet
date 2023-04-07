@@ -9,12 +9,12 @@ export default function MainMenu() {
         </div>
         <div className='menu_items_wrapper'>
             <ul>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Services</a></li>
-                <li><a href="/">Solutions</a></li>
-                <li><a href="/">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#products">Products</a></li>
             </ul>
-            <button>Get Quote</button>
+            <a href="#contact"> <button >Contact us</button></a>
         </div>
     </div>
   )
