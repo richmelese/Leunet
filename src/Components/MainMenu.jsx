@@ -1,7 +1,9 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../Assets/logo.png";
 
 export default function MainMenu() {
+
     return (
         <div className="main_menu container">
             <div className="logo_wrapper">
@@ -24,7 +26,8 @@ export default function MainMenu() {
                         <a href="/products">Products</a>
                     </li>
                 </ul>
-                <button>Get Quote</button>
+
+                <button onClick={() => {window.location = "contact-us"}}>Get Quote</button>
             </div>
         </div>
     );
