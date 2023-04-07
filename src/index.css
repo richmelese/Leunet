@@ -336,6 +336,7 @@ body {
   background: url("./Assets/collage-bg.png") right no-repeat;
   top: -65px;
   z-index: -1;
+  right: -5%;
 }
 .home_collage {
   display: grid;

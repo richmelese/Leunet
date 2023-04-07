@@ -39,12 +39,6 @@ const serviceList = [
     },
 ];
 
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Hello World!");
-
-});
-
-
 export default function ServicesServiceList() {
     const [active, setActive] = useState(0);
     

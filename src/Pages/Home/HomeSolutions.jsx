@@ -39,8 +39,6 @@ export default function HomeSolutions() {
             },
             { rootMargin: "-200px" }
         );
-        console.log(ref);
-        console.log(isIntersecting);
         observer.observe(ref.current);
 
         return () => observer.disconnect();
@@ -65,7 +63,7 @@ export default function HomeSolutions() {
                     <Accordion>
                         {solutions.map((sol, i) => {
                             return (
-                                <AccordionItem>
+                                <AccordionItem key={i}>
                                     <AccordionItemHeading>
                                         <AccordionItemButton>{sol.title}</AccordionItemButton>
                                     </AccordionItemHeading>

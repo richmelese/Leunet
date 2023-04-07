@@ -51,8 +51,6 @@ export default function HomeServices() {
             },
             { rootMargin: "-200px" }
         );
-        console.log(ref);
-        console.log(isIntersecting);
         observer.observe(ref.current);
 
         return () => observer.disconnect();

@@ -24,8 +24,6 @@ export default function Footer() {
             },
             { rootMargin: "-200px" }
         );
-        console.log(ref);
-        console.log(isIntersecting);
         observer.observe(ref.current);
 
         return () => observer.disconnect();
