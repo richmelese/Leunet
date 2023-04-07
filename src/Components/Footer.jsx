@@ -37,13 +37,12 @@ export default function Footer() {
         }
     }, [isIntersecting]);
 
-
     return (
-        <div className="footer" ref={ref}>
+        <div className="footer" id="contact" ref={ref}>
             <div className="container">
                 <div className="info_section">
                     <img src={logo} />
-                    <p>Aenean vestibulum felis nec egestas fringilla. Duis non felis onsequat, varius sapien convallis, tincidunt nisl. </p>
+                    <p>We welcome you to visit us and learn more about our services and solutions. Our team of experts will be happy to give you a tour of our facilities and answer any questions you may have. </p>
                     <div className="email_section">
                         <div className="image_wrapper">
                             <img src={envelope} />
@@ -51,8 +50,9 @@ export default function Footer() {
 
                         <div className="email_us">
                             <p>Email US</p>
-                            <a href="mailto:info@leunet.com">info@leunet.com</a>
+                            <a href="mailto:contact@leunetict.com">contactus@leunetict.com</a>
                         </div>
+                        
                     </div>
                     <div className="social_nav_container">
                         <div className="social_media">
@@ -90,19 +90,19 @@ export default function Footer() {
                         <div className="footer_nav">
                             <ul>
                                 <li>
-                                    <a href="/">Home</a>
+                                    <a href="#home">Home</a>
                                 </li>
                                 <li>
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/">Services</a>
+                                    <a href="#services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="/">Solutions</a>
+                                    <a href="#solutions">Solutions</a>
                                 </li>
                                 <li>
-                                    <a href="/">Products</a>
+                                    <a href="#products">Products</a>
                                 </li>
                             </ul>
                         </div>
@@ -110,28 +110,30 @@ export default function Footer() {
                 </div>
                 <div className="contact_us_form">
                     <h5>Request A Quote - Let's work together</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.</p>
+                    <p>Contact us today to learn more about our services and how we can help your business thrive.</p>
+                    <form>
                     <div className="form">
                         <div className="top">
                             <div>
                                 <label>Name</label>
-                                <input placeholder="Full Name"/>
+                                <input placeholder="Full Name" type="text" id="name" required />
                             </div>
                             <div>
                                 <label>Email</label>
-                                <input placeholder="Email address"/>
+                                <input placeholder="Email address" required />
                             </div>
                         </div>
                         <div className="middle">
                             <label>Subject</label>
-                            <input placeholder="Subject Line"/>
+                            <input placeholder="Subject Line" id="subject" required />
                         </div>
                         <div className="bottom">
                             <label>Message</label>
-                            <textarea placeholder="Tell us about your project..."></textarea>
+                            <textarea placeholder="Tell us about your project..." id="message" required></textarea>
                         </div>
-                        <button className="gl_button">Request A Quote</button>
+                        <button className="gl_button" type="submit">Submit</button>
                     </div>
+                    </form>
                 </div>
             </div>
 
@@ -140,3 +142,4 @@ export default function Footer() {
         </div>
     );
 }
+//}

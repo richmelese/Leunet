@@ -4,36 +4,36 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import img from "../../Assets/testimonial-guy.jpeg";
+import img from "../../Assets/testimonial-guy.png";
 
 const testimonials = [
     {
-        name: "James Toriff 1",
-        title: "Manager",
+        name: "John, ",
+        title: "CEO of a manufacturing company",
         img: img,
         testimony:
-            "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage .There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage .There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage .",
+            "We have been using their services for over 3 years now, and they have never let us down. Their team of experts is always available to help us with any IT issues, and their solutions have helped us streamline our operations and increase efficiency.",
     },
     {
-        name: "James Toriff 2",
-        title: "Manager",
+        name: "Lisa",
+        title: "CTO of a software development company",
         img: img,
         testimony:
-            "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage .",
+            "Their virtualization solutions have transformed our IT infrastructure, making it more agile and flexible. We are now able to scale up or down depending on our business needs, which has helped us reduce costs and improve our bottom line.",
     },
     {
-        name: "James Toriff 3",
-        title: "Manager",
+        name: "Michael",
+        title: "CFO of a financial services company",
         img: img,
         testimony:
-            "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage .",
+            "Their virtualization solutions have transformed our IT infrastructure, making it more agile and flexible. We are now able to scale up or down depending on our business needs, which has helped us reduce costs and improve our bottom line.",
     },
     {
-        name: "James Toriff 4",
-        title: "Manager",
+        name: "Sarah",
+        title: "COO of a retail chain",
         img: img,
         testimony:
-            "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage .",
+            "Their CCTV security system installation has made our premises more secure, and we can now monitor our facilities in real-time. Their team of experts helped us select the right cameras and provided us with training on how to use them effectively.",
     },
 ];
 export default function HomeTestimonial() {
@@ -68,7 +68,7 @@ export default function HomeTestimonial() {
             <div className="container">
                 <div className="title_sec">
                     <p className="small_title">Testimonial</p>
-                    <h3>Trusted by millions of creators.</h3>
+                    <h3>Trusted by millions.</h3>
                 </div>
 
                 <div>

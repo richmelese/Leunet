@@ -3,12 +3,11 @@ import dashboard_img from "../../Assets/dashboard.png";
 
 export default function HomeCollage() {
     return (
-        <div className="home_collage container">
+        <div className="home_collage container" id="home" >
             <div className="ptrn_1"></div>
             <div className="message_section">
-                <h1>Lorem ipsum dolor sit amet consectetur</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit 
-interdum ullamcorper sed pharetra sene.</p>
+                <h1>LeuNet ICT Solutions</h1>
+                <p>LeuNet ICT Solutions (LeuNet) is an information communication technology (ICT) service provider company registered as a privately owned limited company in Ethiopia in 2014 G.C</p>
                 <button className="gl_button">
                     Get Started
                 </button>
