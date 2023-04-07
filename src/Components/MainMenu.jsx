@@ -18,7 +18,7 @@ export default function MainMenu() {
                         <a href="/services">Services</a>
                     </li>
                     <li>
-                        <a href="/">Solutions</a>
+                        <a href="/solutions">Solutions</a>
                     </li>
                     <li>
                         <a href="/products">Products</a>

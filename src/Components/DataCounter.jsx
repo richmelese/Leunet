@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function AboutDataCounter() {
+export default function DataCounter({customClassName}) {
   return (
-    <div className='about_data_counter'>
+    <div className={`data_counter ${customClassName}` }>
         <div className='data_item'>
             <p>100<span>M</span></p>
             <p>Client Satisfaction</p>

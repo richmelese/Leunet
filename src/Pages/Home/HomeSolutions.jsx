@@ -61,7 +61,7 @@ export default function HomeSolutions() {
                 <h3>Services We Provide</h3>
             </div>
             <div className="main_section">
-                <div className="service_list">
+                <div className="solutions_list">
                     <Accordion>
                         {solutions.map((sol, i) => {
                             return (

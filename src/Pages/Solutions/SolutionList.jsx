@@ -1,10 +1,10 @@
 import React from "react";
 import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, AccordionItemPanel } from "react-accessible-accordion";
 
-const faqs = [
+const solutions = [
     {
         title: "ICT Consulting & 24x7 over a year Support",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
+        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
     },
     {
         title: "Virtualization, Security & VPN Solutions",
@@ -24,31 +24,32 @@ const faqs = [
     },
 ];
 
-export default function AboutFAQ() {
+export default function SolutionList() {
     return (
-        <div className="about_faq">
-            <div className="faq_list">
+        <div className="solutions_solutions_list">
+            <div className="container">
                 <Accordion>
-                    {faqs.map((faq, i) => {
+                    {solutions.map((sol, i) => {
                         return (
-                            <AccordionItem>
+                            <AccordionItem >
                                 <AccordionItemHeading>
-                                    <AccordionItemButton>{faq.title}</AccordionItemButton>
+                                    <AccordionItemButton>{sol.title}</AccordionItemButton>
                                 </AccordionItemHeading>
                                 <AccordionItemPanel>
-                                    <p>{faq.desc}</p>
+                                    <p>{sol.desc}</p>
                                 </AccordionItemPanel>
                             </AccordionItem>
                         );
                     })}
                 </Accordion>
             </div>
-            <div className="title_sec">
-                <h3>Frequestly Asked Questions</h3>
-                <p className="small_title">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
-                </p>
-            </div>
+
+            <div className="ptrn_1"></div>
+            <div className="ptrn_2"></div>
+            <div className="ptrn_3"></div>
+            <div className="ptrn_4"></div>
+            <div className="ptrn_5"></div>
+            <div className="ptrn_6"></div>
         </div>
     );
 }

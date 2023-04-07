@@ -1,19 +1,19 @@
 import React from "react";
 import AboutOurCompany from "./AboutOurCompany";
 import AboutOurMission from "./AboutOurMission";
-import AboutDataCounter from "./AboutDataCounter";
 import AboutValues from "./AboutValues";
-import AboutFAQ from "./AboutFAQ";
+import FAQ from "../../Components/FAQ";
 import GrowWithUs from "../../Components/GrowWithUs";
+import DataCounter from "../../Components/DataCounter";
 
 export default function About() {
     return (
         <div className="about container">
             <AboutOurCompany />
-            <AboutDataCounter />
+            <DataCounter />
             <AboutOurMission />
             <AboutValues />
-            <AboutFAQ />
+            <FAQ />
             <GrowWithUs />
         </div>
     );
