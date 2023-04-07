@@ -4,6 +4,7 @@ import AboutOurMission from "./AboutOurMission";
 import AboutDataCounter from "./AboutDataCounter";
 import AboutValues from "./AboutValues";
 import AboutFAQ from "./AboutFAQ";
+import GrowWithUs from "../../Components/GrowWithUs";
 
 export default function About() {
     return (
@@ -13,6 +14,7 @@ export default function About() {
             <AboutOurMission />
             <AboutValues />
             <AboutFAQ />
+            <GrowWithUs />
         </div>
     );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
-import ServicesGrowWithUs from './ServicesGrowWithUs'
+import GrowWithUs from '../../Components/GrowWithUs'
+
 import ServicesOurServices from './ServicesOurServices'
 import ServicesServiceList from './ServicesServiceList'
 
@@ -8,7 +9,7 @@ export default function Services() {
     <div className='services container'>
         <ServicesOurServices />
         <ServicesServiceList />
-        <ServicesGrowWithUs />
+        <GrowWithUs />
     </div>
   )
 }

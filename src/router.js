@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
+import Products from "./Pages/Products/Products";
 import Services from "./Pages/Services/Services";
 
 export const routeObject = [
@@ -21,7 +22,13 @@ export const routeObject = [
         name : "services",
         element: <Services />,
         isMainMenu : true
-    }
+    },
+    {
+        path: "/products",
+        name : "products",
+        element: <Products />,
+        isMainMenu : true
+    },
 ];
 
 const router = createBrowserRouter(routeObject);

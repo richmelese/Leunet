@@ -21,7 +21,7 @@ export default function MainMenu() {
                         <a href="/">Solutions</a>
                     </li>
                     <li>
-                        <a href="/">Products</a>
+                        <a href="/products">Products</a>
                     </li>
                 </ul>
                 <button>Get Quote</button>
