@@ -16,7 +16,8 @@
             li {
                 margin : 0 40px;
                 a {
-                    color: @white;
+                    
+                    color: @default-text;
                     text-decoration: none;
                 }
             }
@@ -32,6 +33,7 @@
             border : none;
             border-radius: 50px;
             height: 60px;
+            cursor: pointer;
         }
     }
 }
@@ -43,6 +45,10 @@
         .menu_items_wrapper { 
             ul {
                 background: rgba(255, 255, 255, 0.1);
+
+                li a {
+                    color: @white;
+                }
             }
 
             button { 

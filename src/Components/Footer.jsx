@@ -39,34 +39,6 @@ export default function Footer() {
         }
     }, [isIntersecting]);
 
-    // function ContactForm() {
-    //     const [name, setName] = useState('');
-    //     const [email, setEmail] = useState('');
-    //     const [subject, setSubject] = useState('');
-    //     const [message, setMessage] = useState('');
-      
-        // const handleSubmit = (e) => {
-        //   e.preventDefault();
-         
-          // Send message to Telegram bot using Node.js backend
-//           const Telegraf = require('telegraf');
-
-// // Replace YOUR_BOT_TOKEN with your own Telegram bot token
-// const bot = new Telegraf('5867016372:AAHKEoNZxJJcl8RlKfhx6bZraL0gQG00XSU');
-
-// // Replace YOUR_CHAT_ID with your own Telegram chat ID
-// const chatId = '417481614';
-
-// bot.start((ctx) => ctx.reply('Hello!'));
-
-// bot.on('message', (ctx) => {
-//   const name = ctx.update.message.from.first_name;
-//   const message = `New message from ${name}\n\nName: ${ctx.update.message.text}\nEmail: ${ctx.update.message.text}\nSubject: ${ctx.update.message.text}\nMessage: ${ctx.update.message.text}`;
-//   bot.telegram.sendMessage(chatId, message);
-// });
-
-// bot.launch();
-       // }
     return (
         <div className="footer" id="contact" ref={ref}>
             <div className="container">
@@ -123,7 +95,7 @@ export default function Footer() {
                                     <a href="#home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">About</a>
+                                    <a href="/about">About</a>
                                 </li>
                                 <li>
                                     <a href="#services">Services</a>

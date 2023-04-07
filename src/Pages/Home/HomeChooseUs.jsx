@@ -16,8 +16,6 @@ export default function ChooseUs() {
         },
         { rootMargin: "-200px" }
       );
-      console.log(isIntersecting);
-      console.log(ref);
 
       observer.observe(ref.current);
   
@@ -26,7 +24,6 @@ export default function ChooseUs() {
   
     useEffect(() => {
       if (isIntersecting) {
-        console.log(ref.current.children.length)
         ref.current.querySelectorAll("*").forEach((el) => {
           el.classList.add("slide-in");
         });

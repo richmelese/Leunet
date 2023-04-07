@@ -1,0 +1,25 @@
+.data_counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+    border-radius: 50px;
+    background-color: @light-gray;
+    margin-top: 7rem;
+
+    .data_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        p:first-child {
+            font-weight: 800;
+            font-size: 42px;
+            margin: 0;
+
+            span {
+                color: @solid-orange;
+            }
+        }
+    }
+}

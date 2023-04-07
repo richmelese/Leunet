@@ -37,7 +37,6 @@ const solutions = [
     },
 ];
 export default function HomeSolutions() {
-
     const [isIntersecting, setIsIntersecting] = useState(false);
     const ref = useRef(null);
 
@@ -63,7 +62,6 @@ export default function HomeSolutions() {
         }
     }, [isIntersecting]);
 
-
     return (
         <div className="home_solutions container" id="solutions" ref={ref}>
             <div className="title_sec">
@@ -71,37 +69,33 @@ export default function HomeSolutions() {
                 <h3>Solutions We Provide</h3>
             </div>
             <div className="main_section">
-                <div className="service_list">
+                <div className="solutions_list">
                     <Accordion>
-                        {
-                            solutions.map((sol, i) => {
-                                return (
-                                    <AccordionItem>
+                        {solutions.map((sol, i) => {
+                            return (
+                                <AccordionItem>
                                     <AccordionItemHeading>
                                         <AccordionItemButton>{sol.title}</AccordionItemButton>
                                     </AccordionItemHeading>
                                     <AccordionItemPanel>
-                                        <p>
-                                            {sol.desc}
-                                        </p>
+                                        <p>{sol.desc}</p>
                                     </AccordionItemPanel>
                                 </AccordionItem>
-                                )
-                            })
-                        }
+                            );
+                        })}
                     </Accordion>
                     <button className="gl_button">Show All</button>
                 </div>
                 <div className="image_section">
-                <div className="lft">
-                    <img className="img_1" src={img_1} />
-                    <img src={img_2} />
-                </div>
-                <div className="rit">
-                    <div>
-                        <img src={img_3} />
+                    <div className="lft">
+                        <img className="img_1" src={img_1} />
+                        <img src={img_2} />
                     </div>
-                </div>
+                    <div className="rit">
+                        <div>
+                            <img src={img_3} />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

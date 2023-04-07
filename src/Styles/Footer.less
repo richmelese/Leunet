@@ -14,7 +14,7 @@
         height: 100%;
         content: " ";
         background: url("./Assets/footer-bg.png") right no-repeat;
-        bottom: 0px;
+        bottom: -20px;
         z-index: -2;
     }
 
@@ -259,5 +259,22 @@
         background: linear-gradient(180deg, rgba(255, 180, 34, 0.42) 0%, rgba(255, 248, 240, 0) 100%);
         background-blend-mode: multiply;
         transform: matrix(0.87, -0.5, 0.47, 0.88, 0, 0);
+    }
+}
+
+
+
+.App:has(.contact_us_page) {
+    .footer {
+        overflow: visible;
+
+        &:before {
+            background-size: 3893px;
+            height: 200%;
+            bottom: -30px;
+        }
+        .contact_us_form {
+            display: none;
+        }
     }
 }
