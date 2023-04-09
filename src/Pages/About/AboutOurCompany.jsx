@@ -8,7 +8,7 @@ export default function AboutOurCompany() {
             <div className="title_sec">
                 <h3>About our company</h3>
                 <p className="small_title">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.
+                LeuNet ICT Solutions (LeuNet) is an information communication technology (ICT) service provider company registered as a privately owned limited company in Ethiopia in 2014 G.C
                 </p>
             </div>
             <div className="image_section">
@@ -18,11 +18,8 @@ export default function AboutOurCompany() {
             <div className="desc_section">
                 <h5>What We Do</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur. Gravida cursus convallis tempor placerat id in non iaculis quisque. Sagittis in
-                    felis duis netus. Faucibus congue leo libero egestas. Montes netus morbi id enim sollicitudin egestas. Morbi aliquam sit
-                    congue ullamcorper volutpat. Eu vestibulum phasellus massa est volutpat. Facilisis amet enim blandit donec maecenas.
-                    Sodales integer bibendum in eget id volutpat et in quis. Id dictum est pharetra rhoncus phasellus velit. Odio sit in
-                    sociis urna donec morbi consequat eu at. Auctor nunc ornare eget ut sed. Sit volutpat netus at euismod. Et erat.
+                LeuNet is working by a partnership and collaboration with world-class international technology Products and service-provider Companies some lists are, Cisco, Dell APC, HPE, Tripplite, Fortinet, Huawei, and Other well-known companies to provide the best Enterprise solutions for the public sector, Governmental institutions, and private-owned clients with a scheduled and ahead of delivery time.
+               <br/> LeuNet ICT Solution, customers are its ambassadors, who are the witnesses of the professionalism on the best solutions that we provide. Also, the company is working with our customers as a strategic developmental partner rather than short-term business dealing and benefit. In short, choosing LeuNet ICT Solutions is, already partnering with the excelled local technological company.
                 </p>
             </div>
         </div>

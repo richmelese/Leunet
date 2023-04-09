@@ -14,14 +14,14 @@ export default function ContactUs() {
                         <img src={email_us} />
                         <p>Mail Us</p>
                     </div>
-                    <a href="mailto:info@leunet.com">info@leunet.com</a>
+                    <a href="mailto:contactus@leunet.com">contactus@leunet.com</a>
                 </div>
                 <div className="card">
                     <div>
                         <img src={call_us} />
                         <p>Call Us</p>
                     </div>
-                    <a href="tel:info@leunet.com">+123456789</a>
+                    <a href="tel:+251911257527">+251 911 257 527/28</a>
                 </div>
             </div>
 

@@ -3,24 +3,24 @@ import { Accordion, AccordionItem, AccordionItemHeading, AccordionItemButton, Ac
 
 const faqs = [
     {
-        title: "ICT Consulting & 24x7 over a year Support",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
+        title: "What services does Leunet ICT Solution offer?",
+        desc: "Leunet ICT Solution provides a wide range of technology services, including IT consulting, network design and installation, software development, cybersecurity, cloud solutions, and managed IT services.",
     },
     {
-        title: "Virtualization, Security & VPN Solutions",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
+        title: "Is Leunet ICT Solution suitable for small businesses",
+        desc: "Yes, Leunet ICT Solution caters to businesses of all sizes. Our flexible and scalable solutions are tailored to meet the specific needs of small and medium-sized enterprises (SMEs) as well as larger corporations.",
     },
     {
-        title: "Preventive & Corrective Maintenance",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
+        title: "How does Leunet ICT Solution ensure data security",
+        desc: "At Leunet ICT Solution, we take data security very seriously. We use the latest encryption and authentication technologies, implement robust access controls, conduct regular security audits, and adhere to industry best practices to safeguard our clients' data.",
     },
     {
-        title: "Building Management System (BMS) Solutions",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
+        title: "Does Leunet ICT Solution offer 24/7 support?",
+        desc: "Yes, we provide round-the-clock support to our clients through various channels such as phone, email, and chat. Our team of experienced technicians is always ready to assist you with any IT issues or concerns.",
     },
     {
-        title: "Disaster Recovery & Business Continuity Solutions",
-        desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.",
+        title: "How can I get started with Leunet ICT Solution?",
+        desc: "To get started with Leunet ICT Solution, simply contact us through our website or give us a call. We will schedule a consultation to discuss your business needs and provide you with a customized solution that fits your budget and requirements.",
     },
 ];
 
@@ -46,7 +46,7 @@ export default function FAQ({customClassName}) {
             <div className="title_sec">
                 <h3>Frequestly Asked Questions</h3>
                 <p className="small_title">
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.
+                Get quick answers to common queries and concerns with our website's frequently asked questions (FAQ) section.
                 </p>
             </div>
         </div>

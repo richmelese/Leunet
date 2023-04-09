@@ -100,13 +100,13 @@ export default function HomeServices() {
                             <div className="middle">
                                 <p>{ser.desc}</p>
                             </div>
-                            <a href="#">Explore More</a>
+                            <a href="/services">Explore More</a>
                         </div>
                     );
                 })}
             </div>
             <div className="button_wrapper">
-                <button className="gl_button">Explore More</button>
+            <a href="/services"><button className="gl_button">Explore More</button></a>
             </div>
         </div>
     );
