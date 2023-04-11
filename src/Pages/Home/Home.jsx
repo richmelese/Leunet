@@ -1,23 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import HomeChooseUs from './HomeChooseUs'
-import HomeCollage from './HomeCollage'
-import HomeProducts from './HomeProducts';
-import HomeServices from './HomeServices';
-import HomeSolutions from './HomeSolutions';
-import HomeTestimonial from './HomeTestimonial';
+import HomeChooseUs from "./HomeChooseUs";
+import HomeCollage from "./HomeCollage";
+import HomeProducts from "./HomeProducts";
+import HomeServices from "./HomeServices";
+import HomeSolutions from "./HomeSolutions";
+import HomeTestimonial from "./HomeTestimonial";
 
 export default function Home() {
-
-  return (
-    <div>
-    {/* // <div className='home'> */}
-        {/* <HomeCollage />
+    return (
+        <div className="home">
+            <HomeCollage />
+            {/*
         <HomeChooseUs/>
         <HomeServices />
         <HomeTestimonial />
         <HomeSolutions />
         <HomeProducts /> */}
-    </div>
-  )
+        </div>
+    );
 }
