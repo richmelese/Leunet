@@ -10,13 +10,14 @@ import HomeTestimonial from './HomeTestimonial';
 export default function Home() {
 
   return (
-    <div className='home'>
-        <HomeCollage />
+    <div>
+    {/* // <div className='home'> */}
+        {/* <HomeCollage />
         <HomeChooseUs/>
         <HomeServices />
         <HomeTestimonial />
         <HomeSolutions />
-        <HomeProducts />
+        <HomeProducts /> */}
     </div>
   )
 }

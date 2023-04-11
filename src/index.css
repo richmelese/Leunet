@@ -122,11 +122,17 @@ body {
   overflow-x: hidden;
 }
 .container {
-  width: 100%;
+  width: auto;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.mobile_only {
+  display: block;
+}
+.desktop_only {
+  display: none;
 }
 @media screen and (min-width: 576px) {
   .container {
@@ -136,6 +142,12 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+  .mobile_only {
+    display: none;
+  }
+  .desktop_only {
+    display: block;
   }
 }
 @media screen and (min-width: 992px) {
@@ -170,28 +182,50 @@ body {
 .main_menu {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 40px;
+  position: relative;
+}
+.main_menu .logo_wrapper {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+.main_menu .logo_wrapper img {
+  max-width: 100%;
 }
 .main_menu .menu_items_wrapper {
   display: flex;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -500px;
+  transition: top 0.8s;
+  transition-timing-function: cubic-bezier(0.36, 0.26, 0.02, 1.18);
 }
 .main_menu .menu_items_wrapper ul {
-  display: flex;
   list-style: none;
-  align-items: center;
+  flex-direction: column;
   padding: 0;
-  border-radius: 50px;
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+  padding: 0 1rem;
 }
 .main_menu .menu_items_wrapper ul li {
-  margin: 0 40px;
+  display: flex;
+  justify-content: center;
 }
 .main_menu .menu_items_wrapper ul li a {
   color: #242331;
   text-decoration: none;
+  height: 40px;
+  text-align: center;
+  width: 100%;
+}
+.main_menu .menu_items_wrapper.open {
+  top: 58px;
 }
 .main_menu .menu_items_wrapper button {
-  margin-left: 40px;
-  width: 150px;
   background-color: #ff9a3e;
   color: #ffffff;
   margin-block-start: 1em;
@@ -201,8 +235,74 @@ body {
   height: 60px;
   cursor: pointer;
 }
-.App:has(.home) .main_menu .menu_items_wrapper ul {
-  background: rgba(255, 255, 255, 0.1);
+.main_menu .hamburger_menu_icon {
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
+  width: 40px;
+  z-index: 1;
+}
+.main_menu .hamburger_menu_icon svg {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .main_menu {
+    margin-top: 60px;
+  }
+  .main_menu .logo_wrapper {
+    width: 170px;
+    display: flex;
+    align-items: center;
+  }
+  .main_menu .logo_wrapper img {
+    max-width: 100%;
+  }
+  .main_menu .menu_items_wrapper {
+    position: static;
+    width: auto;
+  }
+  .main_menu .menu_items_wrapper button {
+    width: 120px;
+    margin-left: 15px;
+  }
+  .main_menu .menu_items_wrapper ul {
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    width: auto;
+  }
+  .main_menu .menu_items_wrapper ul li {
+    margin: 0 15px;
+  }
+  .main_menu .menu_items_wrapper ul li a {
+    height: auto;
+    color: #ffffff;
+  }
+  .main_menu .hamburger_menu_icon {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main_menu .logo_wrapper {
+    width: auto;
+  }
+  .main_menu .menu_items_wrapper button {
+    width: 120px;
+    margin-left: 15px;
+  }
+  .main_menu .menu_items_wrapper ul li {
+    margin: 0 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main_menu .menu_items_wrapper button {
+    margin-left: 40px;
+    width: 150px;
+  }
 }
 .App:has(.home) .main_menu .menu_items_wrapper ul li a {
   color: #ffffff;
@@ -337,6 +437,26 @@ body {
   top: -65px;
   z-index: -1;
   right: -5%;
+}
+@media screen and (min-width: 576px) {
+  .home {
+    background-color: yellow;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home {
+    background-color: black;
+  }
+}
+@media screen and (min-width: 992px) {
+  .home {
+    background-color: green;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .home {
+    background-color: red;
+  }
 }
 .home_collage {
   display: grid;

@@ -10,7 +10,7 @@ function App() {
             <div className="main-container">
                 <RouterProvider router={router} />
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

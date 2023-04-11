@@ -1,60 +1,182 @@
 .main_menu {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 40px;
+    position: relative;
+    .logo_wrapper {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        img {
+            max-width: 100%;
+        }
+    }
+
     .menu_items_wrapper {
         display: flex;
-
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top : -500px;
+        transition: top .8s;
+        transition-timing-function: cubic-bezier(.36,.26,.02,1.18);
         ul {
-            display: flex;
+            
             list-style: none;
-            align-items: center;
+            flex-direction: column;
             padding: 0;
-
-            border-radius: 50px;
+            width: 100%;
+            display: flex;
+            background-color: @white;
+            padding: 0 1rem;
             
             li {
-                margin : 0 40px;
+                display: flex;
+                justify-content: center;
+                
                 a {
-                    
                     color: @default-text;
                     text-decoration: none;
+                    height: 40px;
+                    text-align: center;
+                    width: 100%;
                 }
             }
         }
 
+        &.open {
+            top : 58px;
+        }
+
         button {
-            margin-left : 40px;
-            width: 150px;
             background-color: @solid-orange;
             color: @white;
             margin-block-start: 1em;
             margin-block-end: 1em;
-            border : none;
+            border: none;
             border-radius: 50px;
             height: 60px;
             cursor: pointer;
         }
     }
+
+    .hamburger_menu_icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        width: 40px;
+        z-index: 1;
+
+        svg {
+            vertical-align: middle;
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
 
+@media screen and (min-width: 576px) {
+    .main_menu {
+        // background-color: yellow;
+
+        .menu_items_wrapper {
+            
+            ul {
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main_menu {
+        margin-top: 60px;
+        // background-color: black;
+
+        .logo_wrapper {
+            width: 170px;
+            display: flex;
+            align-items: center;
+            img {
+                max-width: 100%;
+            }
+        }
+        .menu_items_wrapper {
+            position: static;
+            width: auto;
+            button {
+                width: 120px;
+                margin-left: 15px;
+            }
+
+            ul {
+                background: rgba(255, 255, 255, 0.1);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-radius: 50px;
+                width: auto;
+                li {
+                    margin: 0 15px;
+
+                    a {
+                        height: auto;
+                        color: @white;
+                    }
+                }
+            }
+        }
+
+        .hamburger_menu_icon {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .main_menu {
+        // background-color: green;
+
+        .logo_wrapper {
+            width: auto;
+        }
+        .menu_items_wrapper {
+            button {
+                width: 120px;
+                margin-left: 15px;
+            }
+
+            ul li {
+                margin: 0 40px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main_menu {
+        // background-color: red;
+
+        .menu_items_wrapper {
+            button {
+                margin-left: 40px;
+                width: 150px;
+            }
+        }
+    }
+}
 
 .App:has(.home) {
     .main_menu {
-
-        .menu_items_wrapper { 
+        .menu_items_wrapper {
             ul {
-                background: rgba(255, 255, 255, 0.1);
-
                 li a {
                     color: @white;
                 }
             }
 
-            button { 
+            button {
                 background-color: @white;
                 color: @default-text;
-
             }
         }
     }

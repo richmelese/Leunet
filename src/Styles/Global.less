@@ -25,11 +25,18 @@ body {
 @orange-gradient : linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
 
 .container {
-    width: 100%;
+    width: auto;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.mobile_only {
+    display: block;
+}
+.desktop_only {
+    display: none;
 }
 @media screen and (min-width: 576px) {
     .container {
@@ -40,6 +47,14 @@ body {
 @media screen and (min-width: 768px) {
     .container {
         max-width: 720px;
+    }
+
+    .mobile_only {
+        display: none;
+    }
+
+    .desktop_only {
+        display: block;
     }
 }
 
