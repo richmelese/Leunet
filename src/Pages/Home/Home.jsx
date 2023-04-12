@@ -14,9 +14,9 @@ export default function Home() {
 
             <HomeChooseUs />
             <HomeServices />
-         <HomeTestimonial />
-         <HomeSolutions />
-       {/*    <HomeProducts /> */}
+            <HomeTestimonial />
+            <HomeSolutions />
+            <HomeProducts />
         </div>
     );
 }
