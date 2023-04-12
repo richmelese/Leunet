@@ -112,7 +112,6 @@
 }
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 * {
   font-family: "Nunito", sans-serif;
@@ -120,7 +119,7 @@ html {
 body {
   margin: 0;
   position: relative;
-  overflow: auto;
+  overflow-x: hidden;
 }
 .container {
   width: auto;
@@ -423,6 +422,10 @@ body {
 .data_counter .data_item p:first-child span {
   color: #ff9a3e;
 }
+.home {
+  position: relative;
+  overflow-x: hidden;
+}
 .home:before {
   position: absolute;
   display: block;
@@ -431,7 +434,7 @@ body {
   content: " ";
   background: url("./Assets/collage-bg.png") center no-repeat;
   z-index: -1;
-  top: 155px;
+  top: 0;
   right: -5%;
 }
 @media screen and (min-width: 576px) {
@@ -493,24 +496,24 @@ body {
   position: absolute;
   width: 1059.15px;
   height: 1056.43px;
-  left: -75px;
-  top: -246.28px;
+  left: -78px;
+  top: -368.28px;
   border: 1px solid #e3e3e3;
 }
 .home_collage .ptrn_2 {
   position: absolute;
   width: 1222.9px;
   height: 1219.75px;
-  left: 1021.77px;
-  top: -174.75px;
+  left: 1162.77px;
+  top: -254.75px;
   border: 1px solid #e3e3e3;
 }
 .home_collage .ptrn_3 {
   position: absolute;
   width: 854.11px;
   height: 851.91px;
-  left: 1206.16px;
-  top: 9.17px;
+  left: 1361.16px;
+  top: -30.83px;
   border: 1px solid #e3e3e3;
 }
 @media screen and (min-width: 768px) {
@@ -786,6 +789,7 @@ body {
 .home_testimonial {
   transform: translateY(100%);
   opacity: 0;
+  max-width: 100%;
   margin-top: 5rem;
   background: #ff9a3e;
   color: #ffffff;
@@ -809,7 +813,7 @@ body {
 }
 .home_testimonial .title_sec h3 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 0;
   position: relative;
 }
@@ -856,7 +860,7 @@ body {
 .home_testimonial .ptrn_6 {
   position: absolute;
   border-radius: 50%;
-  z-index: 0;
+  z-index: -1;
 }
 .home_testimonial .ptrn_1 {
   width: 1436px;
@@ -897,6 +901,18 @@ body {
   background: linear-gradient(180deg, rgba(255, 180, 34, 0.44) 0%, rgba(255, 248, 240, 0) 100%);
   background-blend-mode: multiply;
   transform: matrix(0.92, -0.39, 0.36, 0.93, 0, 0);
+}
+@media screen and (min-width: 768px) {
+  .home_testimonial .title_sec h3 {
+    font-size: 40px;
+  }
+  .home_testimonial .swiper-slide img {
+    width: 110px;
+    height: 110px;
+  }
+  .home_testimonial .swiper-slide .name {
+    font-size: 20px;
+  }
 }
 .home_solutions {
   margin-top: 4.5rem;
