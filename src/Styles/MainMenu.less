@@ -20,8 +20,10 @@
         top : -500px;
         transition: top .8s;
         transition-timing-function: cubic-bezier(.36,.26,.02,1.18);
+
+
         ul {
-            
+            box-shadow: 0px 38px 33px rgba(181, 181, 181, 1);
             list-style: none;
             flex-direction: column;
             padding: 0;
@@ -37,7 +39,7 @@
                 a {
                     color: @default-text;
                     text-decoration: none;
-                    height: 40px;
+                    height: 75px;
                     text-align: center;
                     width: 100%;
                 }
@@ -76,15 +78,7 @@
 }
 
 @media screen and (min-width: 576px) {
-    .main_menu {
-        // background-color: yellow;
-
-        .menu_items_wrapper {
-            
-            ul {
-            }
-        }
-    }
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -103,12 +97,15 @@
         .menu_items_wrapper {
             position: static;
             width: auto;
+            
+
             button {
                 width: 120px;
                 margin-left: 15px;
             }
 
             ul {
+                box-shadow : none;
                 background: rgba(255, 255, 255, 0.1);
                 display: flex;
                 flex-direction: row;
@@ -120,7 +117,7 @@
 
                     a {
                         height: auto;
-                        color: @white;
+                        color: @default-text;
                     }
                 }
             }
@@ -165,20 +162,40 @@
     }
 }
 
-.App:has(.home) {
-    .main_menu {
-        .menu_items_wrapper {
-            ul {
-                background: @orange-gradient;
-                li a {
-                    color: @white;
-                }
-            }
+// .App:has(.home) {
+//     .main_menu {
+//         .menu_items_wrapper {
+//             ul {
+//                 background: @orange-gradient;
+//                 li a {
+//                     color: @white;
+//                 }
+//             }
 
-            button {
-                background: @orange-gradient;
-                // color: @default-text;
-            }
-        }
-    }
-}
+//             button {
+//                 background: @orange-gradient;
+//                 // color: @default-text;
+//             }
+//         }
+//     }
+// }
+
+// @media screen and (min-width: 768px) { 
+//     .App:has(.home) {
+//         .main_menu {
+//             .menu_items_wrapper {
+//                 ul {
+//                     background: @orange-gradient;
+//                     li a {
+//                         color: @white;
+//                     }
+//                 }
+    
+//                 button {
+//                     background: @orange-gradient;
+//                     // color: @default-text; 
+//                 }
+//             }
+//         }
+//     }
+// } 

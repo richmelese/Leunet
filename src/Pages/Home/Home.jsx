@@ -11,9 +11,9 @@ export default function Home() {
     return (
         <div className="home">
             <HomeCollage />
-            {/*
-        <HomeChooseUs/>
-        <HomeServices />
+
+            <HomeChooseUs />
+            {/* <HomeServices />
         <HomeTestimonial />
         <HomeSolutions />
         <HomeProducts /> */}
