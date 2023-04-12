@@ -15,8 +15,8 @@ export default function Home() {
             <HomeChooseUs />
             <HomeServices />
          <HomeTestimonial />
-         {/*   <HomeSolutions />
-        <HomeProducts /> */}
+         <HomeSolutions />
+       {/*    <HomeProducts /> */}
         </div>
     );
 }

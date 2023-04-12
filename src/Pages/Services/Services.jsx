@@ -6,7 +6,7 @@ import ServicesServiceList from './ServicesServiceList'
 
 export default function Services() {
   return (
-    <div className='services container'>
+    <div className='services_page container'>
         <ServicesOurServices />
         <ServicesServiceList />
         <GrowWithUs />

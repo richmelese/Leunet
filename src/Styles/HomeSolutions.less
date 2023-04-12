@@ -1,5 +1,4 @@
 .home_solutions {
-
     > * {
         transform: translateY(100%);
         opacity: 0;
@@ -27,8 +26,7 @@
 
     .main_section {
         display: grid;
-        grid-template-columns: 5fr 4fr;
-        grid-column-gap: 4rem;
+
         justify-content: space-between;
         .solutions_list {
             .accordion__heading {
@@ -74,8 +72,13 @@
                 height: 0;
             }
 
-            button {
+            .button_wrapper {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 margin-top: 2rem;
+            }
+            button {
             }
         }
 
@@ -83,26 +86,25 @@
             display: grid;
             grid-template-columns: auto auto;
             grid-gap: 2rem;
+            grid-row-start: 1;
             img {
-                max-width: 290px;
+                max-width: 100%;
             }
-    
+
             .lft {
                 display: grid;
                 grid-template-rows: 3fr 4fr;
                 grid-row-gap: 2rem;
                 justify-items: end;
-                .img_1{
-                    max-width: 230px;
+                .img_1 {
                     align-self: end;
                 }
             }
-    
+
             .rit {
                 display: grid;
                 align-items: center;
                 grid-auto-flow: column;
-               
 
                 div {
                     position: relative;
@@ -117,6 +119,60 @@
                         right: -15px;
                         z-index: -1;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .home_solutions {
+        .main_section {
+            .image_section {
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .home_solutions {
+        .main_section {
+            grid-template-columns: 5fr 4fr;
+            grid-column-gap: 2rem;
+            .solutions_list {
+                .button_wrapper {
+                    justify-content:left;
+                }
+            }
+            .image_section {
+                grid-row-start: 1;
+                grid-column-start: 2;
+                img {
+                    max-width: 210px;
+                }
+
+                .lft .img_1 {
+                    max-width: 180px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .home_solutions {
+        .main_section {
+            grid-column-gap: 4rem;
+            .image_section {
+                img {
+                    max-width: 290px;
+                }
+
+                .lft .img_1 {
+                    max-width: 230px;
                 }
             }
         }
