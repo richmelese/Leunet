@@ -13,8 +13,8 @@ export default function Home() {
             <HomeCollage />
 
             <HomeChooseUs />
-            {/* <HomeServices />
-        <HomeTestimonial />
+            <HomeServices />
+            {/* <HomeTestimonial />
         <HomeSolutions />
         <HomeProducts /> */}
         </div>
