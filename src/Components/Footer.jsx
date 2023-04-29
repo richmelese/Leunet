@@ -40,20 +40,11 @@ export default function Footer() {
     return (
         <div className="footer" id="contact" ref={ref}>
             <div className="container">
-                <div className="info_section">
+                <div className="logo_section">
                     <img src={logo} />
                     <p>We welcome you to visit us and learn more about our services and solutions. Our team of experts will be happy to give you a tour of our facilities and answer any questions you may have. </p>
-                    <div className="email_section">
-                        <div className="image_wrapper">
-                            <img src={envelope} />
-                        </div>
-
-                        <div className="email_us">
-                            <p>Email US</p>
-                            <a href="mailto:contact@leunetict.com">contactus@leunetict.com</a>
-                        </div>
-                        
-                    </div>
+                </div>
+                <div className="info_section">
                     <div className="social_nav_container">
                         <div className="social_media">
                             <p>Connect With Us</p>
