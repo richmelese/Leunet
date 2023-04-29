@@ -24,8 +24,8 @@
 
     .values {
         display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
         grid-gap: 2rem;
 
         .value_item {
@@ -67,9 +67,24 @@
                     color: @light-text;
                 }
             }
-
         }
     }
+}
 
+@media screen and (min-width: 576px) {
+}
 
+@media screen and (min-width: 768px) {
+    .about_values {
+        .values {
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
 }

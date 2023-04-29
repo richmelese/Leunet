@@ -326,7 +326,7 @@ body {
   z-index: -1;
 }
 .grow_with_us .content_wrapper {
-  padding: 20rem;
+  padding: 5rem;
 }
 .grow_with_us .content_wrapper .title_sec {
   display: flex;
@@ -350,10 +350,29 @@ body {
   text-align: center;
   max-width: 500px;
 }
+@media screen and (min-width: 576px) {
+  .grow_with_us .content_wrapper {
+    padding: 5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .grow_with_us .content_wrapper {
+    padding: 10rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .grow_with_us .content_wrapper {
+    padding: 15rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .grow_with_us .content_wrapper {
+    padding: 20rem;
+  }
+}
 .faq {
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-gap: 3rem;
+  grid-template-columns: auto;
   margin-top: 7rem;
 }
 .faq .faq_list .accordion__heading .accordion__button {
@@ -396,6 +415,7 @@ body {
 }
 .faq .title_sec {
   max-width: 100%;
+  grid-row-start: 1;
 }
 .faq .title_sec h3 {
   font-weight: 700;
@@ -405,11 +425,20 @@ body {
 .faq .title_sec p {
   color: #797979;
 }
+@media screen and (min-width: 768px) {
+  .faq {
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 3rem;
+  }
+  .faq .title_sec {
+    grid-column-start: 2;
+  }
+}
 .data_counter {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 50px;
   background-color: #F9F9F9;
   margin-top: 7rem;
@@ -419,13 +448,34 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.data_counter .data_item p:first-child {
+.data_counter .data_item .num {
   font-weight: 800;
-  font-size: 42px;
+  font-size: 32px;
   margin: 0;
 }
-.data_counter .data_item p:first-child span {
+.data_counter .data_item .num span {
   color: #ff9a3e;
+}
+.data_counter .data_item .desc {
+  text-align: center;
+  max-width: 125px;
+}
+@media screen and (min-width: 576px) {
+  .data_counter {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .data_counter {
+    grid-template-columns: auto auto auto auto;
+    padding: 3rem;
+  }
+  .data_counter .data_item .num {
+    font-size: 42px;
+  }
+  .data_counter .data_item .desc {
+    max-width: initial;
+  }
 }
 .home {
   position: relative;
@@ -1342,6 +1392,7 @@ body {
   .footer {
     height: 700px;
     overflow: hidden;
+    margin-top: 10rem;
   }
   .footer .container .logo_section p {
     max-width: 260px;
@@ -1412,6 +1463,7 @@ body {
   font-size: 55px;
   margin-top: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 .about_our_company .image_section {
   display: grid;
@@ -1420,30 +1472,41 @@ body {
   grid-gap: 1rem;
   justify-content: space-between;
   margin-top: 1rem;
+  align-items: center;
 }
 .about_our_company .image_section img {
-  height: 100%;
   max-width: 100%;
   border-radius: 45px;
 }
 .about_our_company .desc_section {
   display: grid;
-  grid-auto-flow: column;
-  grid-gap: 6rem;
+  grid-auto-flow: row;
+  grid-gap: 1rem;
   margin-top: 4rem;
 }
 .about_our_company .desc_section h5 {
   font-size: 30px;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 .about_our_company .desc_section p {
   color: #797979;
   line-height: 157.4%;
   margin-top: 0;
 }
+@media screen and (min-width: 768px) {
+  .about_our_company .desc_section {
+    grid-auto-flow: column;
+    grid-gap: 6rem;
+    margin-top: 4rem;
+  }
+  .about_our_company .desc_section h1 {
+    margin-bottom: initial;
+  }
+}
 .about_our_mission {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
   margin-top: 7rem;
 }
@@ -1455,9 +1518,20 @@ body {
   line-height: 157.4%;
   margin-top: 0;
 }
+.about_our_mission .image_section {
+  grid-row-start: 1;
+}
 .about_our_mission .image_section img {
   border-radius: 45px;
   max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about_our_mission {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about_our_mission .image_section {
+    grid-column-start: 2;
+  }
 }
 .about_values {
   margin-top: 7rem;
@@ -1482,8 +1556,8 @@ body {
 }
 .about_values .values {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-gap: 2rem;
 }
 .about_values .values .value_item {
@@ -1519,6 +1593,12 @@ body {
 }
 .about_values .values .value_item .right p {
   color: #797979;
+}
+@media screen and (min-width: 768px) {
+  .about_values .values {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
 }
 .services_page {
   margin-top: 4.5rem;

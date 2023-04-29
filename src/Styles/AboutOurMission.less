@@ -1,6 +1,6 @@
 .about_our_mission {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 2rem;
     margin-top: 7rem;
 
@@ -17,10 +17,32 @@
     }
 
     .image_section {
-
+        grid-row-start: 1;
         img {
             border-radius: 45px;
             max-width: 100%;
         }
     }
+}
+
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .about_our_mission {
+        grid-template-columns: 1fr 1fr;
+
+        .image_section {
+            grid-column-start: 2;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+
 }
