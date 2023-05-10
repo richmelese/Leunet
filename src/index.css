@@ -1628,12 +1628,15 @@ body {
   padding: 1rem 4rem;
   grid-auto-flow: column;
   grid-gap: 2rem;
+  overflow-x: scroll;
 }
 .services_service_list {
   margin-top: 7rem;
   display: grid;
-  grid-template-columns: 2fr 5fr;
   grid-gap: 6rem;
+}
+.services_service_list .services_navigation {
+  display: none;
 }
 .services_service_list .services_navigation ul {
   position: sticky;
@@ -1701,6 +1704,20 @@ body {
   color: #797979;
   line-height: 157.4%;
   padding-left: 90px;
+}
+@media screen and (min-width: 768px) {
+  .services_service_list {
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 5fr;
+  }
+  .services_service_list .services_navigation {
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+  .services_service_list {
+    grid-gap: 6rem;
+  }
 }
 .products {
   margin-top: 4.5rem;

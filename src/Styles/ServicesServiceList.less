@@ -2,10 +2,11 @@
     margin-top: 7rem;
     display: grid;
     // position: relative;
-    grid-template-columns: 2fr 5fr;
+    
     grid-gap: 6rem;
 
     .services_navigation {
+        display: none;
         ul {
             position: sticky;
             top: 40px;
@@ -87,4 +88,32 @@
             }
         }
     }
+}
+
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .services_service_list {
+        
+        grid-gap: 1rem;
+        grid-template-columns: 2fr 5fr;
+
+
+        .services_navigation {
+            display: block;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .services_service_list {
+        grid-gap: 6rem;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
