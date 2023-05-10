@@ -19,8 +19,8 @@
 
     .top_info {
         display: grid;
-        grid-template-columns: auto auto;
-        margin: 2rem 5rem;
+        grid-template-columns: auto;
+        margin: 2rem 0;
         grid-gap: 2rem;
 
         .card {
@@ -55,7 +55,7 @@
 
         box-shadow: 0px 24px 33px rgba(181, 181, 181, 0.25);
 
-        width: 100%;
+        max-width: 100%;
         background-color: @white;
         right: 0;
         padding: 2rem;
@@ -91,7 +91,7 @@
 
             .top {
                 display: grid;
-                grid-template-columns: auto auto;
+                grid-template-columns: auto;
                 grid-gap: 2rem;
 
                 > div {
@@ -121,6 +121,44 @@
             button {
                 margin: 2rem 0;
             }
+        }
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .contact_us_page {
+        .top_info {
+            margin: 2rem 0;
+            grid-template-columns: auto auto;
+
+        }
+
+        .contact_us_form .form .top {
+
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .contact_us_page {
+        .top_info {
+            margin: 2rem 4rem;
+        }
+
+        .contact_us_form .form .top {
+            grid-template-columns: auto auto;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contact_us_page {
+        .top_info {
+            margin: 2rem 5rem;
         }
     }
 }
