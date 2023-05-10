@@ -1745,7 +1745,7 @@ body {
 .product_list {
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
 }
 .product_list .product {
   max-width: 380px;
@@ -1760,6 +1760,16 @@ body {
 .product_list .product a {
   text-decoration: none;
   color: #ff9a3e;
+}
+@media screen and (min-width: 768px) {
+  .product_list {
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .product_list {
+    grid-template-columns: auto auto auto;
+  }
 }
 .solutions {
   margin-top: 4.5rem;

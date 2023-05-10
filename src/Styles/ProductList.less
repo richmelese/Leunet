@@ -1,7 +1,7 @@
 .product_list {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
 
     .product {
         max-width: 380px;
@@ -19,4 +19,25 @@
             color: @solid-orange;
         }
     }
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    .product_list {
+        grid-template-columns: auto auto;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .product_list {
+        grid-template-columns: auto auto auto;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
 }
