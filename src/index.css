@@ -1766,8 +1766,6 @@ body {
 }
 .solutions_we_provide {
   display: grid;
-  grid-template-columns: 4fr 5fr;
-  grid-column-gap: 4rem;
   justify-content: space-between;
 }
 .solutions_we_provide .image_section {
@@ -1776,7 +1774,7 @@ body {
   grid-gap: 2rem;
 }
 .solutions_we_provide .image_section img {
-  max-width: 290px;
+  max-width: 90%;
 }
 .solutions_we_provide .image_section .lft {
   display: grid;
@@ -1785,7 +1783,6 @@ body {
   justify-items: end;
 }
 .solutions_we_provide .image_section .lft .img_1 {
-  max-width: 230px;
   align-self: end;
 }
 .solutions_we_provide .image_section .rit {
@@ -1826,6 +1823,32 @@ body {
   font-size: 40px;
   margin-top: 0;
 }
+@media screen and (min-width: 768px) {
+  .solutions_we_provide .image_section .lft .img_1 {
+    max-width: 230px;
+  }
+  .solutions_we_provide .image_section img {
+    max-width: 290px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .solutions_we_provide {
+    grid-column-gap: 1rem;
+    grid-template-columns: 4fr 5fr;
+  }
+  .solutions_we_provide .image_section img {
+    max-width: 230px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .solutions_we_provide {
+    grid-column-gap: 4rem;
+    grid-template-columns: 4fr 5fr;
+  }
+  .solutions_we_provide .image_section img {
+    max-width: 290px;
+  }
+}
 .solutions_solutions_list {
   margin-top: 7rem;
   background: #ff9a3e;
@@ -1835,11 +1858,8 @@ body {
 }
 .solutions_solutions_list .container {
   display: grid;
-  grid-template-columns: 2fr 5fr;
-  padding: 8rem 0;
-}
-.solutions_solutions_list .container .accordion {
-  grid-column-start: 2;
+  z-index: 3;
+  position: relative;
 }
 .solutions_solutions_list .container .accordion .accordion__heading .accordion__button {
   background-color: #F9F9F9;
@@ -1914,6 +1934,15 @@ body {
   right: -889.67px;
   bottom: -705px;
   border: 1px solid #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .solutions_solutions_list .container {
+    grid-template-columns: 2fr 5fr;
+    padding: 8rem 0;
+  }
+  .solutions_solutions_list .container .accordion {
+    grid-column-start: 2;
+  }
 }
 .contact_us_page {
   margin-top: 4.5rem;

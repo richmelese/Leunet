@@ -7,11 +7,10 @@
 
     .container {
         display: grid;
-        grid-template-columns: 2fr 5fr;
-        padding: 8rem 0;
-
+        z-index: 3;
+        position: relative;
         .accordion {
-            grid-column-start: 2;
+            // grid-column-start: 2;
             .accordion__heading {
                 .accordion__button {
                     background-color: @light-gray;
@@ -101,6 +100,29 @@
         bottom: -705px;
         border: 1px solid @white;
     }
+}
 
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+    .solutions_solutions_list {
+        .container {
+            grid-template-columns: 2fr 5fr;
+            padding: 8rem 0;
+
+            .accordion {
+                grid-column-start: 2;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
 
 }
