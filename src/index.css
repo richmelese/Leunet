@@ -177,7 +177,7 @@ body {
 .slide-in {
   transform: translateY(0) !important;
   opacity: 1 !important;
-  transition: all 1.4s ease-in;
+  transition: all 0.7s ease-in;
 }
 .main_menu {
   display: flex;
@@ -1179,10 +1179,6 @@ body {
   margin-top: 10rem;
   height: 600px;
   margin-top: 48rem;
-}
-.footer > * {
-  transform: translateY(100%);
-  opacity: 0;
 }
 .footer:before {
   position: absolute;

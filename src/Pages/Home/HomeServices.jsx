@@ -66,7 +66,7 @@ export default function HomeServices() {
             ([entry]) => {
                 setIsIntersecting(entry.isIntersecting);
             },
-            { rootMargin: "-200px" }
+            { rootMargin: "-100px" }
         );
         observer.observe(ref.current);
 

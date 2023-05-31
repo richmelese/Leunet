@@ -17,28 +17,28 @@ export default function Footer() {
     const [isIntersecting, setIsIntersecting] = useState(false);
     const ref = useRef(null);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                setIsIntersecting(entry.isIntersecting);
-            },
-            { rootMargin: "-200px" }
-        );
-        observer.observe(ref.current);
+    // useEffect(() => {
+    //     const observer = new IntersectionObserver(
+    //         ([entry]) => {
+    //             setIsIntersecting(entry.isIntersecting);
+    //         },
+    //         { rootMargin: "-100px" }
+    //     );
+    //     observer.observe(ref.current);
 
-        return () => observer.disconnect();
-    }, [isIntersecting]);
+    //     return () => observer.disconnect();
+    // }, [isIntersecting]);
 
-    useEffect(() => {
-        if (isIntersecting) {
-            ref.current.querySelectorAll("*").forEach((el) => {
-                el.classList.add("slide-in");
-            });
-        }
-    }, [isIntersecting]);
+    // useEffect(() => {
+    //     if (isIntersecting) {
+    //         ref.current.querySelectorAll("*").forEach((el) => {
+    //             el.classList.add("slide-in");
+    //         });
+    //     }
+    // }, [isIntersecting]);
 
     return (
-        <div className="footer" id="contact" ref={ref}>
+        <div className="footer" id="contact">
             <div className="container">
                 <div className="logo_section">
                     <img src={logo} />
