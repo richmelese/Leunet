@@ -1,6 +1,6 @@
 import { RouterProvider } from "react-router-dom";
 import Footer from "./Components/Footer";
-import MainMenu from "./Components/MainMenu";
+import MainMenu from "./Components/MainMenu/MainMenu";
 import router from "./router";
 
 function App() {

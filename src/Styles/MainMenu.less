@@ -18,10 +18,9 @@
         position: absolute;
         width: 100%;
         left: 0;
-        top : -500px;
-        transition: top .8s;
-        transition-timing-function: cubic-bezier(.36,.26,.02,1.18);
-
+        top: -500px;
+        transition: top 0.8s;
+        transition-timing-function: cubic-bezier(0.36, 0.26, 0.02, 1.18);
 
         ul {
             box-shadow: 0px 38px 33px rgba(181, 181, 181, 1);
@@ -32,12 +31,13 @@
             display: flex;
             background-color: @white;
             padding: 0 1rem;
-            
+
             li {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 height: 75px;
+                position: relative;
                 a {
                     color: @default-text;
                     text-decoration: none;
@@ -45,11 +45,34 @@
                     text-align: center;
                     width: 100%;
                 }
+
+                &.hasdropdown {
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        border: solid @default-text;
+                        border-width: 0 1px 1px 0;
+                        padding: 3px;
+                        transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        transition: all 0.15s ease-in;
+                        right: -15px;
+                        top: 6px;
+                    }
+                }
+
+                &:hover {
+                    &:after {
+                        transform: rotate(-135deg);
+                        -webkit-transform: rotate(-135deg);
+                        top: 10px;
+                    }
+                }
             }
         }
 
         &.open {
-            top : 40px;
+            top: 40px;
         }
 
         button {
@@ -80,7 +103,6 @@
 }
 
 @media screen and (min-width: 576px) {
- 
 }
 
 @media screen and (min-width: 768px) {
@@ -99,7 +121,6 @@
         .menu_items_wrapper {
             position: static;
             width: auto;
-            
 
             button {
                 width: 120px;
@@ -107,7 +128,7 @@
             }
 
             ul {
-                box-shadow : none;
+                box-shadow: none;
                 background: rgba(255, 255, 255, 0.1);
                 display: flex;
                 flex-direction: row;
@@ -183,7 +204,7 @@
 //     }
 // }
 
-// @media screen and (min-width: 768px) { 
+// @media screen and (min-width: 768px) {
 //     .App:has(.home) {
 //         .main_menu {
 //             .menu_items_wrapper {
@@ -193,12 +214,12 @@
 //                         color: @white;
 //                     }
 //                 }
-    
+
 //                 button {
 //                     background: @orange-gradient;
-//                     // color: @default-text; 
+//                     // color: @default-text;
 //                 }
 //             }
 //         }
 //     }
-// } 
+// }
