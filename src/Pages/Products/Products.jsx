@@ -1,7 +1,7 @@
 import React from "react";
 import img_1 from "../../Assets/products_page_main.jpeg"
 import GrowWithUs from "../../Components/GrowWithUs";
-import ProductList from "./ProductList";
+import ProductsProductList from "./ProductsProductList";
 export default function Products() {
     return (
         <div className="products container">
@@ -10,7 +10,7 @@ export default function Products() {
                 <h3>Our Products</h3>
             </div>
             <img src={img_1} />
-
+            <ProductsProductList />
             {/* <ProductList /> */}
             <GrowWithUs />
 

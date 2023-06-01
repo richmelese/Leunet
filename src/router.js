@@ -7,6 +7,8 @@ import Services from "./Pages/Services/Services";
 import Solutions from "./Pages/Solutions/Solutions";
 import ServicesSubServiceList from "./Pages/Services/ServicesSubServiceList";
 import ServicesSubServiceDetail from "./Pages/Services/ServicesSubServiceDetail";
+import ProductsSubProductList from "./Pages/Products/ProductsSubProductList";
+import ProductSubProductDetail from "./Pages/Products/ProductSubProductDetail";
 
 export const routeObject = [
     {
@@ -44,6 +46,18 @@ export const routeObject = [
         name: "products",
         element: <Products />,
         isMainMenu: true,
+    },
+    {
+        path: "/products/:productId",
+        name: "productsList",
+        element: <ProductsSubProductList />, 
+        isMainMenu: false,
+    },
+    {
+        path : "/products/:productId/:subProductId",
+        name : "subProductDetail",
+        element : <ProductSubProductDetail />,
+        isMainMenu : false
     },
     {
         path: "/solutions",

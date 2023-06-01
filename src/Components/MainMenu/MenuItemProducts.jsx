@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DropDownMenu from "./DropDownMenu";
+import DataProducts from "../../Data/DataProducts";
 
 export default function MenuItemProducts() {
     const [currentDropDownMenuOpen, setCurrentDropDownMenuOpen] = useState(false);
@@ -12,9 +13,17 @@ export default function MenuItemProducts() {
     };
 
     return (
-        <li onMouseEnter={() => setCurrentDropDownMenuOpen(1)} onMouseLeave={() => hideDropDown()}>
-            <a href="/Products">Products</a>
-            {/* {currentDropDownMenuOpen && <DropDownMenu />} */}
-        </li>
+        <>
+            <li className="hasdropdown" onMouseOver={() => setCurrentDropDownMenuOpen(true)} onMouseOut={() => hideDropDown(setCurrentDropDownMenuOpen)}>
+                <a href="/Products">Products</a>
+            </li>
+            <DropDownMenu
+                currentDropDownMenuOpen={currentDropDownMenuOpen}
+                hideDropDown={hideDropDown}
+                title="Our Products"
+                dropDownList={DataProducts}
+                exploreMoreLink={"/Products"}
+            />
+        </>
     );
 }
