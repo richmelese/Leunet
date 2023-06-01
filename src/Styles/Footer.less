@@ -16,7 +16,7 @@
         height: 100%;
         content: " ";
         background: url("./Assets/footer-bg.png") right no-repeat;
-        bottom: -20px;
+        bottom: -62px;
         z-index: -2;
         background-position-y: 145px;
     }
@@ -224,7 +224,7 @@
 
     .ptrn_1 {
         right: 2px;
-
+        display: none;
         background: linear-gradient(180deg, rgba(255, 180, 34, 0.42) 0%, rgba(255, 248, 240, 0) 100%);
         background-blend-mode: multiply;
         transform: matrix(0.87, -0.5, 0.47, 0.88, 0, 0);
@@ -263,6 +263,7 @@
                 }
             }
         }
+
     }
 }
 @media screen and (min-width: 992px) {
@@ -305,6 +306,10 @@
             top: -30px;
             margin: initial;
             left: initial;
+        }
+
+        .ptrn_1 {
+            display: block;
         }
 
         .ptrn_1,
