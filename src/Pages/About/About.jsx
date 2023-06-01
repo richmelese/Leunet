@@ -14,7 +14,7 @@ export default function About() {
             <AboutOurMission />
             <AboutValues />
             <FAQ />
-            <GrowWithUs />
+            {/* <GrowWithUs /> */}
         </div>
     );
 }

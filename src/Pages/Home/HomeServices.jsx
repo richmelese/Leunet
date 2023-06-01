@@ -107,7 +107,7 @@ export default function HomeServices() {
                 })}
             </div>
             <div className="button_wrapper">
-                <button className="gl_button">Explore More</button>
+            <a href="/services"><button className="gl_button">Explore More</button></a>
             </div>
         </div>
     );

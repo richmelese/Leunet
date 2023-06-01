@@ -18,11 +18,10 @@ export default function SolutionsWeProvide() {
                 </div>
             </div>
             <div className="title_sec">
-                <p className="small_title">Products</p>
-                <h3>Our Products</h3>
+                <p className="small_title">Solutions</p>
+                <h3>Our Solutions</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur. Gravida cursus convallis tempor placerat id in non iaculis quisque. Sagittis in
-                    felis duis netus. Faucibus congue leo libero egestas. Montes netus morbi id enim sollicitudin egestas. Morbi
+                Leunet ICT Solution provides customized and scalable technology solutions to meet the unique needs of businesses and organizations of all sizes. Our solutions include advanced networking and wireless communication, secure access control systems, reliable video surveillance, state-of-the-art audiovisual systems, and more. We work closely with our clients to understand their requirements and design tailored solutions that help them achieve their goals and stay ahead of the competition. Our solutions are backed by expert services and support, ensuring that our clients always have the technology infrastructure they need to succeed.
                 </p>
             </div>
         </div>

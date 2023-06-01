@@ -8,9 +8,9 @@ export default function HomeCollage() {
             <div className="message_section">
                 <h1>LeuNet ICT Solutions</h1>
                 <p>LeuNet ICT Solutions (LeuNet) is an information communication technology (ICT) service provider company registered as a privately owned limited company in Ethiopia in 2014 G.C</p>
-                <button className="gl_button">
+                <a href="/about"><button className="gl_button">
                     Get Started
-                </button>
+                </button></a>
             </div>
             <div className="image_section">
                 <img src={dashboard_img} alt="dashboard" />

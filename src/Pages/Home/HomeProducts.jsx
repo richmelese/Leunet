@@ -56,7 +56,7 @@ export default function HomeProducts() {
                             <div key={i} className="product">
                                 <img src={prod.img} />
                                 <p>{prod.name}</p>
-                                <a href="#">Explore More</a>
+                                <a href="products">Explore More</a>
                             </div>
                         )
                     })

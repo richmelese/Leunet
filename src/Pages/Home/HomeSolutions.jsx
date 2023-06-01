@@ -82,9 +82,7 @@ export default function HomeSolutions() {
                             );
                         })}
                     </Accordion>
-                    <div className="button_wrapper">
-                        <button className="gl_button">Show All</button>
-                    </div>
+                    <a href="/solutions"> <button className="gl_button">Show All</button></a>
                 </div>
                 <div className="image_section">
                     <div className="lft">

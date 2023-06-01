@@ -8,9 +8,9 @@ export default function ServicesOurServices() {
     return (
         <div className="services_our_services">
             <div className="title_sec">
-                <h3>We are proud of our Services</h3>
+                <h3>Services We Provide</h3>
                 <p className="small_title">
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.
+                LeuNet ICT Solution, customers are its ambassadors, who are the witnesses of the professionalism on the best servces that we provide.
                 </p>
             </div>
             <div className="image_section">

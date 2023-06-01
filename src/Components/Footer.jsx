@@ -49,7 +49,7 @@ export default function Footer() {
                         <div className="social_media">
                             <p>Connect With Us</p>
                             <div className="link_wrapper">
-                                <a href="#" className="fb">
+                                <a href="https://www.facebook.com/LeulMM" className="fb">
                                     <div className="image_wrapper">
                                         <img src={fb} />
                                         <img src={fb_hover} className="hover_state" />
@@ -70,7 +70,7 @@ export default function Footer() {
                                     </div>
                                 </a>
 
-                                <a href="#" className="ins">
+                                <a href="https://www.instagram.com/leunet_ict_solutions/" className="ins">
                                     <div className="image_wrapper">
                                         <img src={ins} />
                                         <img src={ins_hover} className="hover_state" />
@@ -81,19 +81,19 @@ export default function Footer() {
                         <div className="footer_nav">
                             <ul>
                                 <li>
-                                    <a href="#home">Home</a>
+                                    <a href="/home">Home</a>
                                 </li>
                                 <li>
                                     <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="#services">Services</a>
+                                    <a href="/services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="#solutions">Solutions</a>
+                                    <a href="/solutions">Solutions</a>
                                 </li>
                                 <li>
-                                    <a href="#products">Products</a>
+                                    <a href="/products">Products</a>
                                 </li>
                             </ul>
                         </div>
@@ -131,6 +131,9 @@ export default function Footer() {
             <div className="ptrn_1"></div>
             <div className="ptrn_2"></div>
         </div>
+       
     );
+    
 }
 //}
+
