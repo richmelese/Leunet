@@ -5,6 +5,8 @@ import Home from "./Pages/Home/Home";
 import Products from "./Pages/Products/Products";
 import Services from "./Pages/Services/Services";
 import Solutions from "./Pages/Solutions/Solutions";
+import ServicesSubServiceList from "./Pages/Services/ServicesSubServiceList";
+import ServicesSubServiceDetail from "./Pages/Services/ServicesSubServiceDetail";
 
 export const routeObject = [
     {
@@ -24,6 +26,18 @@ export const routeObject = [
         name: "services",
         element: <Services />,
         isMainMenu: true,
+    },
+    {
+        path: "/services/:serviceId",
+        name: "servicesList",
+        element: <ServicesSubServiceList />, 
+        isMainMenu: false,
+    },
+    {
+        path: "/services/:serviceId/:subServiceId",
+        name: "subServiceDetail",
+        element : <ServicesSubServiceDetail />,
+        isMainMenu : false
     },
     {
         path: "/products",

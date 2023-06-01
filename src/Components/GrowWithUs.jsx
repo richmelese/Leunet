@@ -7,7 +7,7 @@ export default function GrowWithUs({customClassName}) {
                 <div className="title_sec">
                     <h3>Are you ready to grow your business with us?</h3>
                     <p className="small_title">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
-                    <button className="gl_button">View Pricing</button>
+                    <button className="gl_button">Contact Us</button>
                 </div>
             </div>
         </div>

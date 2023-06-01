@@ -20,16 +20,16 @@ export default function DropDownMenu({ title, dropDownList, exploreMoreLink, cur
                 <div className="drop_down_items">
                     {dropDownList.map((ddi, i) => {
                         return (
-                            <div key={i} className="drop_down_item">
+                            <a href={`${exploreMoreLink}\\${ddi.id}`} key={i} className="drop_down_item">
                                 <div className="left">
                                     <div className="img_wrapper">
-                                        <img src={ddi.img} />
+                                        <img src={ddi.thumbnail} />
                                     </div>
                                 </div>
                                 <div className="right">
                                     <h3>{ddi.title}</h3>
                                 </div>
-                            </div>
+                            </a>
                         );
                     })}
                 </div>

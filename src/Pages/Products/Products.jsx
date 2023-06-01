@@ -11,7 +11,7 @@ export default function Products() {
             </div>
             <img src={img_1} />
 
-            <ProductList />
+            {/* <ProductList /> */}
             <GrowWithUs />
 
         </div>

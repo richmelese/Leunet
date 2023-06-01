@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useRef, useEffect } from "react";
+import DataServices from "../../Data/DataServices";
 import img_1 from "../../Assets/ser-db-icon.png";
 import img_2 from "../../Assets/ser-iptv-icon.png";
 import img_3 from "../../Assets/ser-wifi-icon.png";
@@ -88,19 +89,19 @@ export default function HomeServices() {
                 <h3>Services We Provide</h3>
             </div>
             <div className="services">
-                {serviceList.map((ser, i) => {
+                {DataServices.map((ser, i) => {
                     return (
                         <div key={i} className="service_item">
                             <div className="top">
                                 <div className="img_wrapper">
-                                    <img src={ser.img} />
+                                    <img src={ser.thumbnail} />
                                 </div>
                                 <h5>{ser.title}</h5>
                             </div>
                             <div className="middle">
-                                <p>{ser.desc}</p>
+                                <p>{ser.shortDesc}</p>
                             </div>
-                            <a href="#">Explore More</a>
+                            <a href={`/services/${ser.id}`}>Explore More</a>
                         </div>
                     );
                 })}

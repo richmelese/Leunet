@@ -8,7 +8,7 @@ export default function ServicesOurServices() {
     return (
         <div className="services_our_services">
             <div className="title_sec">
-                <h3>About our company</h3>
+                <h3>We are proud of our Services</h3>
                 <p className="small_title">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.
                 </p>

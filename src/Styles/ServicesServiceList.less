@@ -57,6 +57,16 @@
             margin-bottom: 3rem;
             padding-bottom: 3rem;
             border-bottom: 1px solid @light-text;
+            display: block;
+            text-decoration: none;
+
+            &:hover {
+                background-color:#e3e3e3;
+                
+                h5 {
+                    text-decoration: underline;
+                }
+            }
             .top {
                 display: flex;
                 align-items: center;
@@ -76,6 +86,7 @@
                     margin: 0 0 0 1rem;
                     font-size: 25px;
                     max-width: 315px;
+                    color: @default-text;
                 }
             }
 
@@ -84,6 +95,10 @@
                     color: @light-text;
                     line-height: 157.4%;
                     padding-left: 90px;
+                }
+
+                button {
+                    margin-left: 90px;
                 }
             }
         }
