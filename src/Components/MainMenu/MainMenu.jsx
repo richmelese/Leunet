@@ -27,7 +27,7 @@ export default function MainMenu() {
 
                     <button
                         onClick={() => {
-                            window.location = "contact-us";
+                            window.location = "/contact-us";
                         }}
                         className="mobile_only"
                     >
@@ -37,7 +37,7 @@ export default function MainMenu() {
 
                 <button
                     onClick={() => {
-                        window.location = "contact-us";
+                        window.location = "/contact-us";
                     }}
                     className="desktop_only"
                 >
