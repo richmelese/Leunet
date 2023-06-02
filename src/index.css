@@ -236,8 +236,8 @@ body {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   transition: all 0.15s ease-in;
-  right: -15px;
-  top: 6px;
+  right: calc(50% - 60px);
+  top: 32px;
 }
 .main_menu .menu_items_wrapper ul li:hover:after {
   transform: rotate(-135deg);
@@ -307,6 +307,18 @@ body {
     padding: unset;
     color: #242331;
   }
+  .main_menu .menu_items_wrapper ul li.hasdropdown:after {
+    content: "";
+    position: absolute;
+    border: solid #242331;
+    border-width: 0 1px 1px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: all 0.15s ease-in;
+    right: -15px;
+    top: 6px;
+  }
   .main_menu .hamburger_menu_icon {
     display: none;
   }
@@ -332,7 +344,7 @@ body {
 .drop_down_menu {
   position: absolute;
   box-sizing: border-box;
-  width: 1140px;
+  z-index: 2;
   top: 70px;
   left: 0;
   padding: 2rem;
@@ -342,7 +354,10 @@ body {
 }
 .drop_down_menu > div {
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: auto;
+}
+.drop_down_menu .title_section {
+  display: none;
 }
 .drop_down_menu .title_section h3 {
   font-weight: 800;
@@ -368,7 +383,7 @@ body {
 .drop_down_menu .drop_down_items .drop_down_item .img_wrapper {
   background: linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
   border-radius: 10px;
-  display: flex;
+  display: none;
   align-items: center;
 }
 .drop_down_menu .drop_down_items .drop_down_item .img_wrapper img {
@@ -380,6 +395,63 @@ body {
   margin: 0 0 0 1rem;
   font-size: 15px;
   max-width: 315px;
+}
+@media screen and (min-width: 576px) {
+  .drop_down_menu {
+    max-width: 540px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .drop_down_menu {
+    max-width: 720px;
+  }
+  .drop_down_menu .drop_down_items .drop_down_item .img_wrapper {
+    display: flex;
+  }
+  .drop_down_menu > div {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+  }
+  .drop_down_menu .title_section {
+    display: block;
+  }
+  .drop_down_menu .title_section h3 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 110%;
+  }
+  .drop_down_menu .title_section .gl_button {
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .drop_down_menu {
+    max-width: 960px;
+  }
+  .drop_down_menu .title_section h3 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 110%;
+  }
+  .drop_down_menu .title_section .gl_button {
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .drop_down_menu {
+    max-width: 1140px;
+  }
+  .drop_down_menu .title_section h3 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 110%;
+  }
+  .drop_down_menu .title_section .gl_button {
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
 }
 .grow_with_us {
   position: relative;

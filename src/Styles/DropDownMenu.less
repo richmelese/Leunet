@@ -1,7 +1,7 @@
 .drop_down_menu {
     position: absolute;
     box-sizing: border-box;
-    width: 1140px;
+    z-index: 2;
     top: 70px;
     left: 0;
     padding: 2rem;
@@ -12,9 +12,10 @@
 
     > div {
         display: grid;
-        grid-template-columns: 2fr 4fr;
+        grid-template-columns: auto;
     }
     .title_section {
+        display: none;
         h3 {
             font-weight: 800;
             font-size: 50px;
@@ -40,7 +41,7 @@
             .img_wrapper {
                 background: @orange-gradient;
                 border-radius: 10px;
-                display: flex;
+                display: none;
                 align-items: center;
                 img {
                     padding: 12px;
@@ -53,6 +54,76 @@
                 margin: 0 0 0 1rem;
                 font-size: 15px;
                 max-width: 315px;
+            }
+        }
+    }
+}
+@media screen and (min-width: 576px) {
+    .drop_down_menu {
+        max-width: 540px;
+
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .drop_down_menu {
+        max-width: 720px;
+        .drop_down_items {
+            .drop_down_item .img_wrapper{
+                display: flex;
+            }
+        }
+
+        > div {
+            display: grid;
+            grid-template-columns: 2fr 4fr;
+        }
+
+        .title_section {
+            display: block;
+            h3 {
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 110%;
+            }
+            .gl_button {
+                padding: 1rem 2rem;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .drop_down_menu {
+        max-width: 960px;
+        .title_section {
+            h3 {
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 110%;
+            }
+            .gl_button {
+                padding: 1rem 2rem;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .drop_down_menu {
+        max-width: 1140px;
+
+        .title_section {
+            h3 {
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 110%;
+            }
+            .gl_button {
+                padding: 1rem 2rem;
+                text-decoration: none;
             }
         }
     }
