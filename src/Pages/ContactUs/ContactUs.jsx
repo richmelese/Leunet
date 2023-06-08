@@ -14,7 +14,7 @@ export default function ContactUs() {
                         <img src={email_us} />
                         <p>Mail Us</p>
                     </div>
-                    <a href="mailto:contactus@leunet.com">contactus@leunet.com</a>
+                    <a href="mailto:contactus@leunet.com">contact@leunetict.com</a>
                 </div>
                 <div className="card">
                     <div>

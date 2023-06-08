@@ -21,9 +21,10 @@ export default function MainMenu() {
             <div className={`menu_items_wrapper ${isOpen ? "open" : ""}`}>
                 <ul className="menu_items">
                     <MenuItemAbout />
+                    <MenuItemProducts />
                     <MenuItemServices />
                     <MenuItemSolutions />
-                    <MenuItemProducts />
+                    
 
                     <button
                         onClick={() => {

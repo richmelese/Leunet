@@ -22,9 +22,9 @@ export default function ProductSubProductDetail() {
                         <div key={i} className="product">
                             <img src={prod.img} />
                             <p>{prod.name}</p>
-                            <button className="gl_button">
+                           <a href="/contact-us"> <button className="gl_button">
                                 Contact Us
-                            </button>
+                            </button></a>
                         </div>
                     );
                 })}
