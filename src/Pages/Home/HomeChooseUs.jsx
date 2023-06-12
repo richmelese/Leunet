@@ -13,35 +13,9 @@ export default function ChooseUs() {
       ([entry]) => {
         setIsIntersecting(entry.isIntersecting);
       },
-      { rootMargin: "-200px" }
+      { rootMargin: "-100px" }
     );
-    console.log(isIntersecting);
-    console.log(ref);
 
-    const [isIntersecting, setIsIntersecting] = useState(false);
-    const ref = useRef(null);
-
-    useEffect(() => {
-      const observer = new IntersectionObserver(
-        ([entry]) => {
-          setIsIntersecting(entry.isIntersecting);
-        },
-        { rootMargin: "-100px" }
-      );
-
-      observer.observe(ref.current);
-
-      return () => observer.disconnect();
-    }, [isIntersecting]);
-
-    useEffect(() => {
-      if (isIntersecting) {
-        console.log(ref.current.children.length);
-        ref.current.querySelectorAll("*").forEach((el) => {
-          el.classList.add("slide-in");
-        });
-      }
-    }, [isIntersecting]);
     observer.observe(ref.current);
 
     return () => observer.disconnect();
