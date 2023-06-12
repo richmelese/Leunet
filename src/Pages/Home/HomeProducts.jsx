@@ -7,15 +7,15 @@ import img_3 from "../../Assets/home-product-3.png";
 const products = [
     {
         img: img_1,
-        name: "Lorem ipsum dolor sit amet consectetur",
+        name: "Bullet cameras: weather-resistant and can capture high-quality images even in low light conditions. ipsum dolor sit amet consectetur",
     },
     {
         img: img_2,
-        name: "Lorem ipsum dolor sit amet consectetur",
+        name: "PTZ cameras: these cameras can be controlled remotely to pan, tilt, and zoom in on specific areas of interest",
     },
     {
         img: img_3,
-        name: "Lorem ipsum dolor sit amet consectetur",
+        name: "Dome cameras: can rotate 360 degrees and are often installed on ceilings, making them difficult to tamper with",
     },
 ];
 export default function HomeProducts() {
@@ -28,10 +28,8 @@ export default function HomeProducts() {
             ([entry]) => {
                 setIsIntersecting(entry.isIntersecting);
             },
-            { rootMargin: "-200px" }
+            { rootMargin: "-100px" }
         );
-        console.log(ref);
-        console.log(isIntersecting);
         observer.observe(ref.current);
 
         return () => observer.disconnect();
@@ -46,7 +44,7 @@ export default function HomeProducts() {
     }, [isIntersecting]);
 
     return (
-        <div className="home_products container" ref={ref}>
+        <div className="home_products container" id="products" ref={ref}>
             <div className="title_sec">
                 <p className="small_title">Products</p>
                 <h3>Our Products</h3>
@@ -58,7 +56,7 @@ export default function HomeProducts() {
                             <div key={i} className="product">
                                 <img src={prod.img} />
                                 <p>{prod.name}</p>
-                                <a href="#">Explore More</a>
+                                <a href="products">Explore More</a>
                             </div>
                         )
                     })

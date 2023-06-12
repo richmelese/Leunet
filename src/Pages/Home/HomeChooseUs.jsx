@@ -18,6 +18,30 @@ export default function ChooseUs() {
     console.log(isIntersecting);
     console.log(ref);
 
+    const [isIntersecting, setIsIntersecting] = useState(false);
+    const ref = useRef(null);
+
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          setIsIntersecting(entry.isIntersecting);
+        },
+        { rootMargin: "-100px" }
+      );
+
+      observer.observe(ref.current);
+
+      return () => observer.disconnect();
+    }, [isIntersecting]);
+
+    useEffect(() => {
+      if (isIntersecting) {
+        console.log(ref.current.children.length);
+        ref.current.querySelectorAll("*").forEach((el) => {
+          el.classList.add("slide-in");
+        });
+      }
+    }, [isIntersecting]);
     observer.observe(ref.current);
 
     return () => observer.disconnect();
@@ -25,7 +49,6 @@ export default function ChooseUs() {
 
   useEffect(() => {
     if (isIntersecting) {
-      console.log(ref.current.children.length);
       ref.current.querySelectorAll("*").forEach((el) => {
         el.classList.add("slide-in");
       });
@@ -33,7 +56,7 @@ export default function ChooseUs() {
   }, [isIntersecting]);
 
   return (
-    <div className="home_choose_us container" ref={ref}>
+    <div className="home_choose_us container" id="about" ref={ref}>
       <div className="image_section">
         <div className="lft">
           <img src={img_1} />
@@ -47,21 +70,18 @@ export default function ChooseUs() {
       </div>
       <div className="message_section">
         <div>
-          <p className="small_title">Why Choose Us</p>
-          <h2>Make your customers happy by giving services.</h2>
+          <p className="small_title">About Us</p>
+          <h2>About LeuNet ICT Solutions</h2>
           <p className="desc">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less. A domain name is
-            one of the first steps to establishing your brand. Secure a
-            consistent brand image with a domain name that matches your
-            business.
+            LeuNet ICT Solutions (LeuNet) is an information communication
+            technology (ICT) service provider company registered as a privately
+            owned limited company in Ethiopia in 2014 G.C It has been serving an
+            ever-growing number of clients and is a leading local company in
+            technological solution provisioning since its foundation. In a
+            relatively short period of time, LeuNet has attracted the attention
+            of many customers through the company’s work discipline and
+            professional and expert solutions.
           </p>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
-          <a href=""></a>
           <button className="gl_button">Get Started</button>
         </div>
       </div>

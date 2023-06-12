@@ -1,0 +1,115 @@
+.service_item_style_2 {
+    margin-top: 7rem;
+    background: @solid-orange;
+    color: @default-text;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        display: grid;
+        z-index: 3;
+        position: relative;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+        color: @white;
+
+        .desc_section {
+            h3 {
+                font-size: 30px;
+            }
+    
+            p {
+                line-height: 157.4%;
+                margin-top: 0;
+                margin-bottom: 3rem;
+            }
+    
+            a {
+                box-sizing: border-box;
+                background-color: @white;
+                color: @solid-orange;
+                padding: 1rem 2rem;
+                text-decoration: none;
+            }
+        }
+    
+        .image_section {
+            grid-row-start: 1;
+            img {
+                border-radius: 45px;
+                max-width: 100%;
+            }
+        }
+    }
+
+
+    .ptrn_1,
+    .ptrn_2,
+    .ptrn_3,
+    .ptrn_4,
+    .ptrn_5,
+    .ptrn_6 {
+        position: absolute;
+        border-radius: 50%;
+        z-index: 0;
+    }
+    
+    .ptrn_1 {
+        width: 1436px;
+        height: 1092.78px;
+        left: -1124.67px;
+        bottom: 121px;
+        border: 1px solid @white;
+    }
+
+    .ptrn_2 {
+        width: 1093px;
+        height: 1093px;
+        left: -261px;
+        transform: rotate(-22.02deg);
+        bottom: 0;
+        background: url("./Assets/solutions_list_bg_solutions.svg")no-repeat center;
+    }
+
+    .ptrn_3 {
+        width: 1177px;
+        height: 1014.78px;
+        right: -889.67px;
+        bottom: -705px;
+        border: 1px solid @white;
+    }
+
+    .ptrn_4 {
+        width: 1354px;
+        height: 1132.78px;
+        right: -889.67px;
+        bottom: -705px;
+        border: 1px solid @white;
+    }
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+   
+}
+
+@media screen and (min-width: 992px) {
+    .service_item_style_2 {
+        .container {
+            grid-template-columns: 1fr 1fr;
+            // padding: 8rem 0;
+
+            .image_section {
+                grid-column-start: 1;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+}

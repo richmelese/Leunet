@@ -1,9 +1,9 @@
 .home_services {
-    margin-top: 5rem;
-    > * {
-        transform: translateY(100%);
-        opacity: 0;
-    }
+    margin-top: 3rem; /* reduce margin-top for mobile devices */
+    // > * {
+    //     transform: translateY(100%);
+    //     opacity: 0;
+    // }
 
     .title_sec {
         display: flex;
@@ -14,53 +14,55 @@
         .small_title {
             margin-bottom: 0;
             line-height: 25px;
+            font-size: 18px; /* reduce font size for mobile devices */
             color: @solid-orange;
         }
 
         h3 {
             font-weight: 700;
-            font-size: 40px;
+            font-size: 30px; /* reduce font size for mobile devices */
             margin-top: 0;
         }
     }
 
     .services {
         display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto;
-        grid-gap: 2rem;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 1rem; /* reduce gap for mobile devices */
 
         .service_item {
-            max-width: 440px;
+            max-width: none;
             background: #f9f9f9;
-            padding: 3rem;
-            padding-bottom: 4rem;
-            border-radius: 30px;
+            padding: 2rem; /* reduce padding for mobile devices */
+            padding-bottom: 3rem; /* reduce padding for mobile devices */
+            border-radius: 20px; /* reduce border radius for mobile devices */
 
             .top {
                 display: flex;
                 align-items: center;
                 .img_wrapper {
                     background: @orange-gradient;
-                    border-radius: 20px;
+                    border-radius: 15px; /* reduce border radius for mobile devices */
                     display: flex;
                     align-items: center;
                     img {
-                        padding: 12px;
-                        width: 40px;
-                        height: 40px;
+                        padding: 8px;
+                        width: 30px; /* reduce image size for mobile devices */
+                        height: 30px; /* reduce image size for mobile devices */
                     }
                 }
 
                 h5 {
                     margin: 0 0 0 1rem;
-                    font-size: 17px;
+                    font-size: 16px; /* reduce font size for mobile devices */
                 }
             }
 
             .middle {
                 p {
                     color: @light-text;
+                    font-size: 14px; /* reduce font size for mobile devices */
                 }
             }
 
@@ -80,5 +82,56 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .home_services {
+        margin-top: 5rem; /* increase margin-top for larger screens */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home_services {
+        .services {
+            grid-template-columns: auto auto; /* show two columns of services on larger screens */
+            grid-gap: 2rem; /* increase gap between services on larger screens */
+
+            .service_item {
+                max-width: 400px; /* reduce max-width of services for larger screens */
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .home_services {
+        .title_sec {
+            h3 {
+                font-size: 40px; /* increase font size on larger screens */
+            }
+        }
+
+        .services {
+            grid-template-columns: auto auto auto; /* show three columns of services on larger screens */
+            grid-gap: 2rem; /* increase gap between services on larger screens */
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .home_services {
+        .title_sec {
+            h3 {
+                font-size: 50px; /* increase font size on the largest screens */
+            }
+        }
+        .services {
+            grid-gap: 3rem; /* increase gap between services on the largest screens */
+
+            .service_item {
+                max-width: 440px; /* set max-width back to the original value on the largest screens */
+            }
+        }
     }
 }

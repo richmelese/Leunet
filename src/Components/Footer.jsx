@@ -17,50 +17,39 @@ export default function Footer() {
     const [isIntersecting, setIsIntersecting] = useState(false);
     const ref = useRef(null);
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                setIsIntersecting(entry.isIntersecting);
-            },
-            { rootMargin: "-200px" }
-        );
-        console.log(ref);
-        console.log(isIntersecting);
-        observer.observe(ref.current);
+    // useEffect(() => {
+    //     const observer = new IntersectionObserver(
+    //         ([entry]) => {
+    //             setIsIntersecting(entry.isIntersecting);
+    //         },
+    //         { rootMargin: "-100px" }
+    //     );
+    //     observer.observe(ref.current);
 
-        return () => observer.disconnect();
-    }, [isIntersecting]);
+    //     return () => observer.disconnect();
+    // }, [isIntersecting]);
 
-    useEffect(() => {
-        if (isIntersecting) {
-            ref.current.querySelectorAll("*").forEach((el) => {
-                el.classList.add("slide-in");
-            });
-        }
-    }, [isIntersecting]);
-
+    // useEffect(() => {
+    //     if (isIntersecting) {
+    //         ref.current.querySelectorAll("*").forEach((el) => {
+    //             el.classList.add("slide-in");
+    //         });
+    //     }
+    // }, [isIntersecting]);
 
     return (
-        <div className="footer" ref={ref}>
+        <div className="footer" id="contact">
             <div className="container">
-                <div className="info_section">
+                <div className="logo_section">
                     <img src={logo} />
-                    <p>Aenean vestibulum felis nec egestas fringilla. Duis non felis onsequat, varius sapien convallis, tincidunt nisl. </p>
-                    <div className="email_section">
-                        <div className="image_wrapper">
-                            <img src={envelope} />
-                        </div>
-
-                        <div className="email_us">
-                            <p>Email US</p>
-                            <a href="mailto:info@leunet.com">info@leunet.com</a>
-                        </div>
-                    </div>
+                    <p>We welcome you to visit us and learn more about our services and solutions. Our team of experts will be happy to give you a tour of our facilities and answer any questions you may have. </p>
+                </div>
+                <div className="info_section">
                     <div className="social_nav_container">
                         <div className="social_media">
                             <p>Connect With Us</p>
                             <div className="link_wrapper">
-                                <a href="#" className="fb">
+                                <a href="https://www.facebook.com/LeulMM" className="fb">
                                     <div className="image_wrapper">
                                         <img src={fb} />
                                         <img src={fb_hover} className="hover_state" />
@@ -81,7 +70,7 @@ export default function Footer() {
                                     </div>
                                 </a>
 
-                                <a href="#" className="ins">
+                                <a href="https://www.instagram.com/leunet_ict_solutions/" className="ins">
                                     <div className="image_wrapper">
                                         <img src={ins} />
                                         <img src={ins_hover} className="hover_state" />
@@ -92,53 +81,60 @@ export default function Footer() {
                         <div className="footer_nav">
                             <ul>
                                 <li>
-                                    <a href="/">Home</a>
+                                    <a href="/home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="/">About</a>
+                                    <a href="/about">About</a>
                                 </li>
                                 <li>
-                                    <a href="/">Services</a>
+                                    <a href="/products">Products</a>
                                 </li>
                                 <li>
-                                    <a href="/">Solutions</a>
+                                    <a href="/services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="/">Products</a>
+                                    <a href="/solutions">Solutions</a>
                                 </li>
+                             
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="contact_us_form">
                     <h5>Request A Quote - Let's work together</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit interdum ullamcorper sed pharetra sene.</p>
+                    <p>Contact us today to learn more about our services and how we can help your business thrive.</p>
+                    <form>
                     <div className="form">
                         <div className="top">
                             <div>
                                 <label>Name</label>
-                                <input placeholder="Full Name"/>
+                                <input placeholder="Full Name" type="text" id="name" required />
                             </div>
                             <div>
                                 <label>Email</label>
-                                <input placeholder="Email address"/>
+                                <input placeholder="Email address" required />
                             </div>
                         </div>
                         <div className="middle">
                             <label>Subject</label>
-                            <input placeholder="Subject Line"/>
+                            <input placeholder="Subject Line" id="subject" required />
                         </div>
                         <div className="bottom">
                             <label>Message</label>
-                            <textarea placeholder="Tell us about your project..."></textarea>
+                            <textarea placeholder="Tell us about your project..." id="message" required></textarea>
                         </div>
-                        <button className="gl_button">Request A Quote</button>
+                        <button className="gl_button" type="submit">Submit</button>
                     </div>
+                    </form>
                 </div>
             </div>
 
             <div className="ptrn_1"></div>
             <div className="ptrn_2"></div>
         </div>
+       
     );
+    
 }
+//}
+
