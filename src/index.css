@@ -1,114 +1,130 @@
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXA3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXA3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83A3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNi83A3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXA3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNirXA3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNin3A3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNin3A3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3c3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNic3c3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSnc3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiSnc3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXc3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiLXc3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: italic;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHc3ig.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXK3I6Li01BKofIMPyPbj8d7IEAGXNiBHc3ig.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 200;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDshRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDOUhRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDIkhRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDFwmRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmRTM.ttf)
+    format("truetype");
 }
 @font-face {
-  font-family: 'Nunito';
+  font-family: "Nunito";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImRTM.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDBImRTM.ttf)
+    format("truetype");
 }
 html {
   scroll-behavior: smooth;
@@ -381,7 +397,7 @@ body {
   color: #242331;
 }
 .drop_down_menu .drop_down_items .drop_down_item .img_wrapper {
-  background: linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
+  background: linear-gradient(107.77deg, #ff9a3e 15.95%, #ffb422 100%);
   border-radius: 10px;
   display: none;
   align-items: center;
@@ -518,7 +534,7 @@ body {
   margin-top: 7rem;
 }
 .faq .faq_list .accordion__heading .accordion__button {
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   padding: 1.5rem 2rem;
   margin: 1rem 0;
   border-radius: 20px;
@@ -538,8 +554,14 @@ body {
   border-right: 2px solid #ff9a3e;
   transform: rotate(-45deg);
 }
-.faq .faq_list .accordion__heading .accordion__button[aria-expanded="true"]::before,
-.faq .faq_list .accordion__heading .accordion__button[aria-selected="true"]::before {
+.faq
+  .faq_list
+  .accordion__heading
+  .accordion__button[aria-expanded="true"]::before,
+.faq
+  .faq_list
+  .accordion__heading
+  .accordion__button[aria-selected="true"]::before {
   transform: rotate(45deg);
 }
 .faq .faq_list .accordion__panel {
@@ -582,7 +604,7 @@ body {
   justify-content: space-between;
   padding: 2rem;
   border-radius: 50px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   margin-top: 7rem;
 }
 .data_counter .data_item {
@@ -909,7 +931,7 @@ body {
   align-items: center;
 }
 .home_services .services .service_item .top .img_wrapper {
-  background: linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
+  background: linear-gradient(107.77deg, #ff9a3e 15.95%, #ffb422 100%);
   border-radius: 15px;
   /* reduce border radius for mobile devices */
   display: flex;
@@ -969,9 +991,9 @@ body {
     /* increase font size on larger screens */
   }
   .home_services .services {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 25% 25% 25% 25%;
     /* show three columns of services on larger screens */
-    grid-gap: 2rem;
+    grid-gap: 1rem;
     /* increase gap between services on larger screens */
   }
 }
@@ -981,7 +1003,7 @@ body {
     /* increase font size on the largest screens */
   }
   .home_services .services {
-    grid-gap: 3rem;
+    grid-gap: 1rem;
     /* increase gap between services on the largest screens */
   }
   .home_services .services .service_item {
@@ -1072,7 +1094,11 @@ body {
   height: 336.47px;
   left: 2px;
   bottom: 0;
-  background: linear-gradient(180deg, rgba(255, 180, 34, 0.44) 0%, rgba(255, 248, 240, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 180, 34, 0.44) 0%,
+    rgba(255, 248, 240, 0) 100%
+  );
   background-blend-mode: multiply;
   transform: matrix(0.87, -0.5, 0.47, 0.88, 0, 0);
 }
@@ -1095,7 +1121,11 @@ body {
   height: 390.47px;
   right: 83px;
   bottom: 131px;
-  background: linear-gradient(180deg, rgba(255, 180, 34, 0.44) 0%, rgba(255, 248, 240, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 180, 34, 0.44) 0%,
+    rgba(255, 248, 240, 0) 100%
+  );
   background-blend-mode: multiply;
   transform: matrix(0.92, -0.39, 0.36, 0.93, 0, 0);
 }
@@ -1134,15 +1164,23 @@ body {
   display: grid;
   justify-content: space-between;
 }
-.home_solutions .main_section .solutions_list .accordion__heading .accordion__button {
-  background-color: #F9F9F9;
+.home_solutions
+  .main_section
+  .solutions_list
+  .accordion__heading
+  .accordion__button {
+  background-color: #f9f9f9;
   padding: 1.5rem 2rem;
   margin: 1rem 0;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
 }
-.home_solutions .main_section .solutions_list .accordion__heading .accordion__button:before {
+.home_solutions
+  .main_section
+  .solutions_list
+  .accordion__heading
+  .accordion__button:before {
   position: absolute;
   display: inline-block;
   content: "";
@@ -1155,8 +1193,16 @@ body {
   border-right: 2px solid #ff9a3e;
   transform: rotate(-45deg);
 }
-.home_solutions .main_section .solutions_list .accordion__heading .accordion__button[aria-expanded="true"]::before,
-.home_solutions .main_section .solutions_list .accordion__heading .accordion__button[aria-selected="true"]::before {
+.home_solutions
+  .main_section
+  .solutions_list
+  .accordion__heading
+  .accordion__button[aria-expanded="true"]::before,
+.home_solutions
+  .main_section
+  .solutions_list
+  .accordion__heading
+  .accordion__button[aria-selected="true"]::before {
   transform: rotate(45deg);
 }
 .home_solutions .main_section .solutions_list .accordion__panel {
@@ -1378,10 +1424,24 @@ body {
 .footer .container .info_section .social_media .link_wrapper a:hover {
   background-color: #ffffff;
 }
-.footer .container .info_section .social_media .link_wrapper a:hover .image_wrapper img:not(.hover_state) {
+.footer
+  .container
+  .info_section
+  .social_media
+  .link_wrapper
+  a:hover
+  .image_wrapper
+  img:not(.hover_state) {
   display: none;
 }
-.footer .container .info_section .social_media .link_wrapper a:hover .image_wrapper img.hover_state {
+.footer
+  .container
+  .info_section
+  .social_media
+  .link_wrapper
+  a:hover
+  .image_wrapper
+  img.hover_state {
   display: block;
 }
 .footer .container .info_section .social_media .link_wrapper a .image_wrapper {
@@ -1390,10 +1450,24 @@ body {
   justify-content: center;
   width: 100%;
 }
-.footer .container .info_section .social_media .link_wrapper a .image_wrapper img.hover_state {
+.footer
+  .container
+  .info_section
+  .social_media
+  .link_wrapper
+  a
+  .image_wrapper
+  img.hover_state {
   display: none;
 }
-.footer .container .info_section .social_media .link_wrapper a .image_wrapper a {
+.footer
+  .container
+  .info_section
+  .social_media
+  .link_wrapper
+  a
+  .image_wrapper
+  a {
   display: flex;
 }
 .footer .container .info_section .footer_nav {
@@ -1489,13 +1563,21 @@ body {
 .footer .ptrn_1 {
   right: 2px;
   display: none;
-  background: linear-gradient(180deg, rgba(255, 180, 34, 0.42) 0%, rgba(255, 248, 240, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 180, 34, 0.42) 0%,
+    rgba(255, 248, 240, 0) 100%
+  );
   background-blend-mode: multiply;
   transform: matrix(0.87, -0.5, 0.47, 0.88, 0, 0);
 }
 .footer .ptrn_2 {
   right: 554px;
-  background: linear-gradient(180deg, rgba(255, 180, 34, 0.42) 0%, rgba(255, 248, 240, 0) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 180, 34, 0.42) 0%,
+    rgba(255, 248, 240, 0) 100%
+  );
   background-blend-mode: multiply;
   transform: matrix(0.87, -0.5, 0.47, 0.88, 0, 0);
 }
@@ -1547,7 +1629,7 @@ body {
     margin: 0 30px;
   }
   .footer .contact_us_form {
-    top: -30px;
+    top: -136px;
     margin: initial;
     left: initial;
   }
@@ -1703,7 +1785,7 @@ body {
 .about_values .values .value_item {
   display: grid;
   grid-auto-flow: column;
-  background: #F9F9F9;
+  background: #f9f9f9;
   padding: 1rem;
   border-radius: 30px;
 }
@@ -1713,7 +1795,7 @@ body {
   margin-right: 2rem;
 }
 .about_values .values .value_item .left .img_wrapper {
-  background: linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
+  background: linear-gradient(107.77deg, #ff9a3e 15.95%, #ffb422 100%);
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -1833,7 +1915,7 @@ body {
   align-items: center;
 }
 .services_service_list .services .service_item .top .img_wrapper {
-  background: linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
+  background: linear-gradient(107.77deg, #ff9a3e 15.95%, #ffb422 100%);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -2117,7 +2199,7 @@ body {
   align-items: center;
 }
 .products_product_list .products .product_item .top .img_wrapper {
-  background: linear-gradient(107.77deg, #FF9A3E 15.95%, #FFB422 100%);
+  background: linear-gradient(107.77deg, #ff9a3e 15.95%, #ffb422 100%);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -2453,15 +2535,23 @@ body {
   z-index: 3;
   position: relative;
 }
-.solutions_solutions_list .container .accordion .accordion__heading .accordion__button {
-  background-color: #F9F9F9;
+.solutions_solutions_list
+  .container
+  .accordion
+  .accordion__heading
+  .accordion__button {
+  background-color: #f9f9f9;
   padding: 1.5rem 2rem;
   margin: 1rem 0;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
 }
-.solutions_solutions_list .container .accordion .accordion__heading .accordion__button:before {
+.solutions_solutions_list
+  .container
+  .accordion
+  .accordion__heading
+  .accordion__button:before {
   position: absolute;
   display: inline-block;
   content: "";
@@ -2474,8 +2564,16 @@ body {
   border-right: 2px solid #ff9a3e;
   transform: rotate(-45deg);
 }
-.solutions_solutions_list .container .accordion .accordion__heading .accordion__button[aria-expanded="true"]::before,
-.solutions_solutions_list .container .accordion .accordion__heading .accordion__button[aria-selected="true"]::before {
+.solutions_solutions_list
+  .container
+  .accordion
+  .accordion__heading
+  .accordion__button[aria-expanded="true"]::before,
+.solutions_solutions_list
+  .container
+  .accordion
+  .accordion__heading
+  .accordion__button[aria-selected="true"]::before {
   transform: rotate(45deg);
 }
 .solutions_solutions_list .container .accordion .accordion__panel {
@@ -2660,3 +2758,164 @@ body {
   }
 }
 
+.Bittaps__Text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  /* Style */
+  text-align: center;
+  color: #ffffff;
+}
+.Bittaps__Text a {
+  color: white;
+}
+.Product__Header {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #ff9a3e;
+}
+.Product__Text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 110%;
+  /* identical to box height, or 55px */
+
+  text-align: center;
+
+  color: #242331;
+}
+.FooterBG__imgs {
+  margin-top: -21rem;
+  position: relative;
+  z-index: -100;
+  height: 50rem;
+  background-repeat: no-repeat;
+}
+.Secoond__footer__container {
+  display: grid;
+  grid-template-columns: 27% 20% 25%;
+  gap: 13%;
+  grid-auto-rows: minmax(100px auto);
+  padding: 4rem;
+}
+.Sub__container {
+  margin-top: 20rem;
+}
+.Sub__container p {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+.Email__container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 0%;
+}
+.Email__container h1 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.Email__container h3 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  /* Gray/00 */
+
+  color: #ffffff;
+}
+.Quick__links {
+  margin-top: 20rem;
+}
+.Quick__links li {
+  list-style: none;
+}
+.Quick__links h4 {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  /* Gray/00 */
+
+  color: #ffffff;
+}
+.Quick__links li a {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  /* or 222% */
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+}
+.Social__Media__container {
+  margin-top: 20rem;
+}
+.Social__Media__container ul {
+  list-style: none;
+}
+.Social__Media__container li {
+  float: left;
+  padding: 1rem;
+}
+.Second__bitapps {
+  margin-top: -3rem;
+}
+.Social__Media__container li img:hover {
+  background-color: red;
+}
+@media screen and (max-width: 768px) {
+  .Secoond__footer__container {
+    grid-template-columns: 100%;
+  }
+  .Sub__container {
+    margin-top: -10rem;
+  }
+  .Quick__links {
+    margin-top: -3rem;
+    margin-bottom: -4rem;
+  }
+  .FooterBG__imgs {
+    margin-top: 18rem;
+  }
+  .Sub__container p {
+    color: black;
+  }
+  .Social__Media__container {
+    margin-top: -1rem;
+  }
+  .Second__bitapps {
+    margin-top: 3rem;
+  }
+}

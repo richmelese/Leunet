@@ -1,15 +1,19 @@
-import React from 'react'
-import GrowWithUs from '../../Components/GrowWithUs'
+import React from "react";
+import GrowWithUs from "../../Components/GrowWithUs";
 
-import ServicesOurServices from './ServicesOurServices'
-import ServicesServiceList from './ServicesServiceList'
+import ServicesOurServices from "./ServicesOurServices";
+import ServicesServiceList from "./ServicesServiceList";
+import Footer from "../../Components/Footer";
 
 export default function Services() {
   return (
-    <div className='services_page container'>
+    <div>
+      <div className="services_page container">
         <ServicesOurServices />
         <ServicesServiceList />
-        <GrowWithUs />
+      </div>
+      <GrowWithUs />
+      {/* <Footer /> */}
     </div>
-  )
+  );
 }
