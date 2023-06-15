@@ -33,8 +33,25 @@ const Slider = () => {
         pagination={{
           clickable: true,
         }}
+        breakpoints={{
+          375: {
+            slidesPerView: 1,
+          },
+          600: {
+            // width: 576,
+            slidesPerView: 3,
+          },
+          768: {
+            // width: 768,
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 5,
+          },
+        }}
         modules={[Pagination]}
         className="mySwiper"
+        id="Log__swiper"
       >
         <SwiperSlide>
           <img src={Dell} alt="" />
