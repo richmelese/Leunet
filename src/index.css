@@ -644,6 +644,7 @@ body {
 .home {
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .home:before {
   position: absolute;
@@ -787,6 +788,7 @@ body {
   .home_collage .message_section p {
     font-size: 20px;
     color: #242331;
+    margin-top: -2rem;
   }
   .home_collage .message_section button {
     bottom: -1rem;
@@ -800,9 +802,10 @@ body {
 @media screen and (min-width: 1200px) {
   .home_collage .message_section h1 {
     color: #242331;
+    margin-top: 0rem;
   }
   .home_collage .message_section button {
-    bottom: 1rem;
+    bottom: 0rem;
   }
   .home_collage .image_section img {
     max-width: 660px;
@@ -2918,4 +2921,59 @@ body {
   .Second__bitapps {
     margin-top: 3rem;
   }
+}
+/* Home Main swiper  */
+.Home__Main__container h1 {
+  color: red;
+}
+
+.Home__Main__container.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.Home__Main__container.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Home__Main__Swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Home__Img {
+  width: 38rem;
+  margin-top: -4rem;
+}
+/* ================Solution slider============== */
+
+.Solution-Slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.Solution-Slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Solution-Slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

@@ -85,6 +85,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
+
             <div className="footer_nav">
               <ul>
                 <li>
@@ -109,7 +110,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
+        {/* 
         <div className="contact_us_form">
           <h5>Request A Quote - Let's work together</h5>
           <p>
@@ -150,7 +151,7 @@ export default function Footer() {
               </button>
             </div>
           </form>
-        </div>
+        </div> */}
         <h1 className="Bittaps__Text">
           © 2023 | Designed and developed by{" "}
           <a href="https://bitappstech.com/">bitappstech</a>

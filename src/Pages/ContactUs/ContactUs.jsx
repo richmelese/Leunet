@@ -23,7 +23,7 @@ export default function ContactUs() {
               <img src={call_us} />
               <p>Call Us</p>
             </div>
-            <a href="tel:+251911257527">+251 911 257 527/28</a>
+            <a href="tel:+251911257527">+251116393950/51</a>
           </div>
         </div>
 
