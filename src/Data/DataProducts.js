@@ -148,17 +148,17 @@ const DataProducts = [
     id: 1,
     thumbnail: thumbnail,
     img: Server,
-    title: "Servers",
+    title: "Cisco",
     shortDesc:
-      "LeuNet offers high-performance servers, delivering reliable and scalable computing power to support your organization's critical applications and data storage needs.",
-    desc: "LeuNet provides high-performance servers designed to meet your organization's computing power and data storage needs. Our reliable and scalable server solutions ensure seamless operation of critical applications and efficient data management. Whether you require physical servers for on-premises deployment or virtual servers in the cloud, we deliver tailored solutions with comprehensive server management. Trust LeuNet for the power and reliability that drives your organization's success.",
+      " LeuNet offers high-performance servers, delivering reliable and scalable computing power to support your organization's critical applications and data storage needs.",
+    desc: "LeuNet provides high-performance servers designed to meet your organization's computing power and data storage needs.Cisco's primary focus is on designing, manufacturing, and selling a wide range of networking products and solutions that enable the transfer of data, voice, and video across networks..",
     childProducts: [
       {
         id: 1,
         img: NetTwo,
-        title: "Networking",
+        title: "Routers ",
         shortDesc:
-          "LeuNet offers Networking solutions, providing reliable and efficient connectivity for your servers, ensuring seamless communication and data exchange within your organization.",
+          " Cisco is renowned for its high-performance routers, which are devices that connect different networks and direct data traffic efficiently.",
         products: [
           {
             img: Networking,
@@ -177,9 +177,9 @@ const DataProducts = [
       {
         id: 2,
         img: Appp,
-        title: "Application",
+        title: "Switches ",
         shortDesc:
-          "LeuNet offers Application solutions, delivering reliable and optimized server configurations to support your critical business applications, ensuring efficient performance and data management.",
+          "Cisco offers a variety of network switches that help create local area networks (LANs) and connect various devices within those networks..",
         products: [
           {
             img: AppTwo,
@@ -198,9 +198,9 @@ const DataProducts = [
       {
         id: 3,
         img: Storage,
-        title: "Storage/ High-End Servers",
+        title: "Access Points",
         shortDesc:
-          "LeuNet offers high-end storage solutions, delivering reliable and scalable server configurations to meet your organization's demanding storage needs.",
+          " networking device that allows wireless-capable devices, such as laptops, smartphones, and tablets, to connect to a wired network. The Access Point acts as a central hub for wireless communication within a specific area and facilitates the establishment of a wireless local area network (WLAN)",
         products: [
           {
             img: StorageTwo,
@@ -216,13 +216,77 @@ const DataProducts = [
           },
         ],
       },
+      {
+        id: 4,
+        img: Appp,
+        title: "Maraki Products ",
+        shortDesc:
+          "Cisco Meraki is a product line within Cisco that offers cloud-managed networking solutions. Meraki products are designed to simplify the deployment, management, and monitoring of network infrastructure, making them particularly attractive for organizations with limited IT resources or distributed networks",
+        products: [
+          {
+            img: AppTwo,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: AppThree,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: Appfour,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+        ],
+      },
+      {
+        id: 5,
+        img: Storage,
+        title: "Firewall ",
+        shortDesc:
+          "Cisco's firewall solutions provide robust security measures to protect networks and data from unauthorized access and cyber threats.",
+        products: [
+          {
+            img: StorageTwo,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: StorageThree,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: StorageFour,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+        ],
+      },
+      {
+        id: 6,
+        img: Appp,
+        title: "Unified communications (UC)",
+        shortDesc:
+          " Cisco refers to a comprehensive set of integrated communication and collaboration solutions that streamline and enhance business communications. The goal of Cisco's Unified Communications is to unify various communication tools and applications into a single, cohesive platform, improving productivity, efficiency, and user experience..",
+        products: [
+          {
+            img: AppTwo,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: AppThree,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: Appfour,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+        ],
+      },
     ],
   },
+
   {
     id: 2,
     thumbnail: thumbnail,
     img: Switch,
-    title: "Network Switches",
+    title: "Dell ",
     shortDesc:
       "At LeuNet, we offer a comprehensive range of Network Switches to meet the networking needs of businesses. Our Network Switches are designed to provide reliable and high-performance connectivity, enabling efficient data transfer and network management. Our Network Switches come with various features and capabilities that cater to different network environments and requirements. Some key aspects of our Network Switches include:",
     desc: "LeuNet provides high-performance servers designed to meet your organization's computing power and data storage needs. Our reliable and scalable server solutions ensure seamless operation of critical applications and efficient data management. Whether you require physical servers for on-premises deployment or virtual servers in the cloud, we deliver tailored solutions with comprehensive server management. Trust LeuNet for the power and reliability that drives your organization's success.",
@@ -230,9 +294,9 @@ const DataProducts = [
       {
         id: 1,
         img: Acc,
-        title: "Access Switches",
+        title: "Server ",
         shortDesc:
-          "LeuNet offers a range of Access Switches designed to provide reliable and high-performance connectivity for businesses. Our Access Switches serve as the primary point of connection for end-user devices and enable efficient data transfer within the local network.",
+          "Servers can serve various purposes, such as web hosting, email hosting, file sharing, database management, application hosting, and more. Common types of servers include file servers, web servers, database servers, mail servers, and application servers.",
         products: [
           {
             img: AccTwo,
@@ -251,9 +315,9 @@ const DataProducts = [
       {
         id: 2,
         img: Core,
-        title: "Core Switches",
+        title: "Storage",
         shortDesc:
-          "LeuNet offers a range of Core Switches designed to serve as the backbone of your network infrastructure. Core Switches are responsible for handling high volumes of network traffic and providing reliable and high-speed connectivity between various segments of your network.",
+          "Storage refers to the technology and devices used to store and preserve digital data. In computing, storage is essential for holding operating systems, software applications, user files, and other data needed for a computer to function properly",
         products: [
           {
             img: CoreTwo,
@@ -272,9 +336,9 @@ const DataProducts = [
       {
         id: 3,
         img: Aggregator,
-        title: "Distribution/Aggregation Switches",
+        title: "Computer",
         shortDesc:
-          "LeuNet provides a range of Distribution/Aggregation Switches designed to meet the networking needs of businesses. Distribution/Aggregation Switches play a critical role in network infrastructure by aggregating and distributing network traffic from Access Switches to core switches or routers. These switches facilitate efficient and scalable network connectivity and ensure optimal performance across the network.",
+          "A computer is a general-purpose device that can perform a wide range of tasks based on instructions given to it through software programs. Computers consist of hardware components such as a central processing unit (CPU), memory (RAM), storage (hard drive or SSD), input/output devices (keyboard, mouse, monitor), and a motherboard to connect all these components",
         products: [
           {
             img: AggregatorTwo,
@@ -290,13 +354,34 @@ const DataProducts = [
           },
         ],
       },
+      {
+        id: 4,
+        img: Core,
+        title: "Hyper Converged Server",
+        shortDesc:
+          "integrated system that combines compute, storage, networking, and virtualization resources into a single, highly scalable and easily manageable appliance. The primary goal of a hyper-converged server is to simplify data center operations, reduce complexity, and improve resource utilization while providing a flexible and agile infrastructure for modern workloads",
+        products: [
+          {
+            img: CoreTwo,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: CoreThree,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: CoreFour,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+        ],
+      },
     ],
   },
   {
     id: 3,
     thumbnail: thumbnail,
     img: PBX,
-    title: "PBX",
+    title: "HPE",
     shortDesc:
       "LeuNet ICT Solutions offers a comprehensive PBX system that empowers organizations with efficient and reliable communication capabilities. Our PBX solution, tailored for small businesses, allows for seamless internal and external communication, enhancing productivity and customer service.",
     desc: "With our PBX system, you can connect multiple extensions within your organization, enabling easy and direct communication between employees. Whether your team is located in the same office or spread across different locations, our PBX solution ensures smooth and hassle-free connectivity. Our PBX system provides a range of advanced features designed to streamline your communication processes. You can enjoy features such as call routing, call forwarding, call waiting, voicemail, call recording, and conference calling. These features help you manage incoming calls effectively and improve collaboration among your team members.",
@@ -304,9 +389,9 @@ const DataProducts = [
       {
         id: 1,
         img: PBX,
-        title: "Analogue (or traditional) PBX System ",
+        title: "Server  ",
         shortDesc:
-          "LeuNet ICT Solutions offers an Analog PBX System designed to provide reliable and efficient communication for businesses seeking a traditional telephony solution. Our Analog PBX System is a robust and proven technology that delivers seamless connectivity and essential features to enhance your organization's communication capabilities.",
+          "A server is a computer system or software that provides services, resources, and data to other computers or devices on a network. Servers are designed to handle specific tasks and support network infrastructure. They can serve various purposes, such as web hosting, email hosting, file sharing, database management, application hosting, and more. Servers typically have more processing power, memory, and storage capacity compared to regular desktop computers to handle the demands of multiple users or clients simultaneously.",
         products: [
           {
             img: PbxTwo,
@@ -325,9 +410,9 @@ const DataProducts = [
       {
         id: 2,
         img: Onsite,
-        title: "On-site VoIP PBX System ",
+        title: "Storage",
         shortDesc:
-          "LeuNet ICT Solutions offers an On-site VoIP PBX System designed to provide businesses with a powerful and flexible communication solution. Our On-site VoIP PBX System leverages Voice over IP (VoIP) technology to deliver advanced features, cost savings, and scalability.",
+          "Storage refers to the technology and devices used to store and preserve digital data. In computing, storage is essential for holding operating systems, software applications, user files, and other data needed for a computer or server to function properly. Storage can be categorized into primary storage (volatile memory like RAM) and secondary storage (non-volatile memory like hard disk drives or solid-state drives). Secondary storage provides long-term storage for files and data that need to be retained even when the power is off.",
         products: [
           {
             img: OnsiteTwo,
@@ -346,9 +431,9 @@ const DataProducts = [
       {
         id: 3,
         img: Cloud,
-        title: "Cloud-based (or hosted) PBX System ",
+        title: "Computer ",
         shortDesc:
-          "LeuNet ICT Solutions offers a Cloud-based PBX System, also known as a Hosted PBX System, designed to provide businesses with a flexible and scalable communication solution. Our Cloud-based PBX System leverages the power of cloud technology to deliver advanced features, reliability, and cost-effectiveness.",
+          "A computer is a general-purpose device that can perform a wide range of tasks based on instructions given to it through software programs. Computers consist of hardware components such as a central processing unit (CPU), memory (RAM), storage (hard drive or SSD), input/output devices (keyboard, mouse, monitor), and a motherboard to connect all these components.",
         products: [
           {
             img: ClouldTwo,
@@ -367,9 +452,9 @@ const DataProducts = [
       {
         id: 4,
         img: Hybird,
-        title: "Hybrid PBX System ",
+        title: "Hyper Converged Server",
         shortDesc:
-          "LeuNet ICT Solutions offers a Hybrid PBX System designed to provide businesses with a versatile and adaptable communication solution that combines the best of both worlds: the traditional analog telephony and the modern VoIP technology. Our Hybrid PBX System seamlessly integrates analog and IP-based communication channels, offering flexibility, scalability, and advanced features.",
+          "A hyper-converged server is an integrated system that combines compute, storage, networking, and virtualization resources into a single, highly scalable and easily manageable appliance. The primary goal of a hyper-converged server is to simplify data center operations, reduce complexity, and improve resource utilization while providing a flexible and agile infrastructure for modern workloads. ",
         products: [
           {
             img: HybirdTwo,
@@ -385,23 +470,44 @@ const DataProducts = [
           },
         ],
       },
+      {
+        id: 3,
+        img: Cloud,
+        title: "Aruba Networks ",
+        shortDesc:
+          "Aruba Networks is a networking company that was acquired by Hewlett Packard Enterprise (HPE) in 2015. Aruba specializes in providing wireless networking solutions, including wireless access points, wireless LAN controllers, mobility controllers, and other network management and security products. As part of HPE,",
+        products: [
+          {
+            img: ClouldTwo,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: CloulThree,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+          {
+            img: Cloud,
+            name: "Lorem ipsum dolor sit amet consectetur",
+          },
+        ],
+      },
     ],
   },
   {
     id: 4,
     thumbnail: thumbnail,
     img: CCtv,
-    title: "CCTV Cameras",
+    title: "Dahua ",
     shortDesc:
       "LeuNet offers a comprehensive range of CCTV (Closed Circuit Television) cameras to help businesses enhance their security and surveillance capabilities. Our CCTV cameras are designed to provide reliable monitoring, deterrence, and documentation of activities in various environments.",
-    desc: "High Definition (HD) and Ultra HD Resolution: Our CCTV cameras are available in various resolutions, including HD (720p or 1080p) and Ultra HD (4K), ensuring clear and detailed video footage. High-resolution cameras enable better identification of individuals and objects, enhancing the effectiveness of surveillance. Day/Night Vision: Many of our CCTV cameras feature infrared (IR) LEDs or low-light sensors, enabling them to capture clear images and video footage even in low-light or nighttime conditions. This ensures round-the-clock surveillance and enhances security in various environments.",
+    desc: " leading manufacturer and supplier of security surveillance products and solutions. They offer a wide range of cameras and recording devices for various applications. Here's a description of some of their key products:",
     childProducts: [
       {
         id: 1,
         img: Cctvone,
         title: "HDCVI Cameras",
         shortDesc:
-          "LeuNet ICT Solutions offers HDCVI (High Definition Composite Video Interface) cameras as part of our CCTV camera solutions. HDCVI is a video surveillance technology that allows the transmission of high-definition video over coaxial cables, providing superior image quality and longer transmission distances.",
+          "HDCVI stands for High Definition Composite Video Interface. HDCVI cameras are a type of analog surveillance camera that can transmit high-definition video over coaxial cables. They provide high-quality video resolutions, such as 720p and 1080p, allowing for clear and detailed footage. HDCVI cameras are known for their easy installation and compatibility with existing analog CCTV systems, making them a cost-effec",
         products: [
           {
             img: img_1,
@@ -420,9 +526,9 @@ const DataProducts = [
       {
         id: 2,
         img: HD,
-        title: "HDCVI Dome Camera",
+        title: "IP Camera ",
         shortDesc:
-          "LeuNet ICT Solutions offers HDCVI Dome Cameras as part of our CCTV camera solutions. HDCVI Dome Cameras are compact and versatile cameras that provide high-definition video surveillance for various indoor and outdoor applications. These dome cameras feature HDCVI technology, allowing the transmission of high-quality video over coaxial cables for superior image resolution and longer transmission distances. ",
+          "IP cameras, also known as network cameras, are digital cameras that capture and transmit video and audio data over an IP network (like the internet or a local network). These cameras can be wired or wireless and offer various resolutions, including 2MP, 4MP, 4K, and beyond. IP cameras are highly versatile, provide excellent image quality, and often come with advanced features like built-in analytics, wide dynamic range (WDR), and remote access capabilities",
         products: [
           {
             img: HD2,
@@ -441,9 +547,9 @@ const DataProducts = [
       {
         id: 3,
         img: Bullet,
-        title: "HDCVI Bullet Camera ",
+        title: "AI Camera ",
         shortDesc:
-          "LeuNet ICT Solutions offers HDCVI Bullet Cameras as part of our comprehensive CCTV camera solutions. HDCVI Bullet Cameras are robust and weatherproof cameras designed for outdoor surveillance applications. These cameras utilize HDCVI technology to transmit high-definition video over coaxial cables, ensuring superior image quality and extended transmission distances. HDCVI Bullet Cameras feature a compact and durable design, making them suitable for monitoring areas that require long-range coverage and resistance to harsh weather conditions.",
+          " AI-powered or smart cameras, are equipped with artificial intelligence capabilities. These cameras use advanced algorithms and deep learning technologies to analyze video content in real-time. AI cameras can detect and classify objects, perform facial recognition, track moving objects, detect anomalies, and more. These intelligent features enhance the efficiency and effectiveness of video surveillance systems by automating tasks and providing intelligent alerts",
         products: [
           {
             img: Bullet1,
@@ -462,9 +568,9 @@ const DataProducts = [
       {
         id: 4,
         img: Recorder,
-        title: "XVR/DVR Recorder",
+        title: "PTZ Camera",
         shortDesc:
-          "LeuNet ICT Solutions offers XVR (Digital Video Recorder) and DVR (Digital Video Recorder) recorders as part of our CCTV system solutions. XVR and DVR recorders are essential components of a video surveillance system, responsible for capturing, recording, and storing video footage from connected cameras.",
+          "PTZ cameras are motorized cameras that can be remotely controlled to pan (rotate horizontally), tilt (tilt vertically), and zoom in and out. They offer flexible coverage and can quickly adjust their field of view to focus on specific areas or objects of interest. PTZ cameras are commonly used in large outdoor spaces, such as parking lots, stadiums, and city surveillance, where the ability to move and zoom provides extensive coverage.",
         products: [
           {
             img: Recorder1,
@@ -483,9 +589,9 @@ const DataProducts = [
       {
         id: 5,
         img: IP,
-        title: "IP Network Camera ",
+        title: "Network Video Recorder",
         shortDesc:
-          "LeuNet ICT Solutions offers IP Network Cameras as part of our comprehensive CCTV camera solutions. IP Network Cameras are advanced surveillance cameras that capture and transmit video footage over IP (Internet Protocol) networks, such as local area networks (LANs) or the internet. These cameras offer several advantages over traditional analog cameras, including higher image resolutions, advanced features, and seamless integration with network-based video management systems",
+          "An NVR is a networked digital recording device specifically designed for IP cameras. NVRs receive and store video data from multiple IP cameras over the network. They offer features like high-capacity storage, video playback, remote access, and advanced search capabilities. NVRs can also support various recording modes, such as continuous recording, motion-based recording, and event-triggered recording.",
         products: [
           {
             img: Ip1,
@@ -504,9 +610,9 @@ const DataProducts = [
       {
         id: 6,
         img: IPDOME,
-        title: "IP Dome Cameras",
+        title: "Digital Video Recorder",
         shortDesc:
-          "LeuNet ICT Solutions offers IP Dome Cameras as part of our comprehensive CCTV camera solutions. IP Dome Cameras are versatile surveillance cameras that provide high-definition video monitoring for various indoor and outdoor applications. These dome cameras utilize IP technology to capture and transmit video footage over IP networks, such as local area networks (LANs) or the internet.",
+          "DVRs are recording devices used with analog cameras. They convert analog video signals into digital format for storage and playback. While IP cameras typically use NVRs, older analog systems often rely on DVRs for recording and managing footage.",
         products: [
           {
             img: IPDOME1,
@@ -522,212 +628,23 @@ const DataProducts = [
           },
         ],
       },
-      {
-        id: 7,
-        img: IpBullet,
-        title: "IP Bullet Cameras",
-        shortDesc:
-          "LeuNet ICT Solutions offers IP Bullet Cameras as part of our comprehensive CCTV camera solutions. IP Bullet Cameras are robust and weatherproof surveillance cameras designed for outdoor monitoring applications. These cameras utilize IP technology to capture and transmit high-definition video footage over IP networks, such as local area networks (LANs) or the internet.",
-        products: [
-          {
-            img: IpBullet1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: IpBullet2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: IpBullet3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 8,
-        img: IPPTZ,
-        title: "IPPTZ Camera ",
-        shortDesc:
-          "LeuNet ICT Solutions offers IP PTZ (Pan-Tilt-Zoom) Cameras as part of our comprehensive CCTV camera solutions. IP PTZ Cameras are advanced surveillance cameras that provide versatile and flexible monitoring capabilities. These cameras combine pan, tilt, and zoom functionalities, allowing users to remotely control the camera's movement and focus on specific areas of interest.",
-        products: [
-          {
-            img: IPPTZ1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: IPPTZ2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: IPPTZ3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 9,
-        img: IPFISH,
-        title: "IP FishEye Cameras",
-        shortDesc:
-          "LeuNet ICT Solutions provides a range of IP FishEye Cameras to meet various surveillance requirements. Our expert team can assist you in selecting and deploying the right IP FishEye Cameras for your specific needs. We offer comprehensive installation, configuration, and ongoing support to ensure optimal performance and security for your video surveillance infrastructure.",
-        products: [
-          {
-            img: IPFISH1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: IPFISH2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: IPFISH3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 10,
-        img: Al,
-        title: "AI Cameras",
-        shortDesc:
-          "LeuNet ICT Solutions offers AI Cameras as part of our advanced CCTV camera solutions. AI Cameras, also known as Artificial Intelligence Cameras or Smart Cameras, are equipped with built-in artificial intelligence capabilities that enhance the functionality and efficiency of video surveillance systems.",
-        products: [
-          {
-            img: Al1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: Al2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: Al3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 11,
-        img: VIDREC,
-        title: "Network Video Recorders",
-        shortDesc:
-          "LeuNet ICT Solutions offers Network Video Recorders (NVRs) as part of our comprehensive CCTV camera solutions. NVRs are specialized devices designed to capture, store, and manage video footage from IP cameras in a networked surveillance system. They serve as the central hub for recording, accessing, and managing video data.",
-        products: [
-          {
-            img: VIDREC1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: VIDREC2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: VIDREC3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 12,
-        img: EVS,
-        title: "EVS (Enterprise Video Storage)",
-        shortDesc:
-          "LeuNet ICT Solutions offers Enterprise Video Storage (EVS) solutions as part of our comprehensive video surveillance offerings. EVS, also known as Video Management System (VMS) storage, is specifically designed to provide secure and scalable storage for video data generated by surveillance systems in enterprise environments.",
-        products: [
-          {
-            img: EVS1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: EVS2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: EVS3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 13,
-        img: NETKEY,
-        title: "Network Keyboard ",
-        shortDesc:
-          "LeuNet ICT Solutions offers Network Keyboards as part of our comprehensive security and surveillance solutions. Network Keyboards, also known as PTZ (Pan-Tilt-Zoom) Keyboards or Joystick Controllers, are specialized devices used to control and manage PTZ cameras in a networked surveillance system.",
-        products: [
-          {
-            img: NETKEY1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: NETKEY2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: NETKEY3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 14,
-        img: LED1,
-        title: "LED/LCD Display/ Video Wall Display ",
-        shortDesc:
-          "LeuNet ICT Solutions offers LED/LCD Display and Video Wall Display solutions as part of our comprehensive visual display offerings. LED/LCD Displays and Video Wall Displays are advanced display technologies designed to deliver high-quality visuals, vibrant colors, and immersive viewing experiences in various settings.",
-        products: [
-          {
-            img: LED,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: LED2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: LED3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 15,
-        img: VIDMAT,
-        title: "Video Matrix",
-        shortDesc:
-          "LeuNet ICT Solutions offers Video Matrix solutions as part of our comprehensive video distribution and management offerings. A Video Matrix, also known as a Matrix Switcher, is a versatile device that enables the routing and distribution of video signals from multiple sources to multiple destinations in a video surveillance or multimedia environment.",
-        products: [
-          {
-            img: VIDMAT1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: VIDMAT2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: VIDMAT3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
     ],
   },
   {
     id: 5,
     thumbnail: thumbnail,
     img: Fire,
-    title: "Fire Alarm System",
+    title: "Canon",
     shortDesc:
       "LeuNet ICT Solutions offers Fire Alarm Systems as part of our comprehensive safety and security solutions. Fire Alarm Systems are critical components of any building or facility, designed to detect and alert occupants about the presence of fire or smoke, allowing for timely evacuation and prompt response to mitigate fire-related risks.",
-    desc: "Fire Alarm Systems are advanced and intelligent systems that provide reliable fire detection, notification, and emergency response capabilities. These systems consist of various interconnected devices, sensors, control panels, and notification appliances that work together to detect and communicate potential fire hazards.",
+    desc: "manufacturer of imaging and optical products, including printers. They offer a variety of printers, including single-function printers and multi-function printers (MFPs). Here's a description of printers and MFP printers in Canon",
     childProducts: [
       {
         id: 1,
         img: Fire3,
-        title: "Addressable Fire-Alarm System",
+        title: "Printer ",
         shortDesc:
-          "LeuNet ICT Solutions offers Addressable Fire Alarm Systems as part of our comprehensive fire safety solutions. Addressable Fire Alarm Systems are advanced and intelligent fire detection and alarm systems that provide precise identification of fire events and efficient communication of critical information to facilitate prompt response and evacuation.",
+          "A printer is a peripheral device that produces physical copies of digital documents, images, or graphics on paper or other media. Canon's single-function printers are designed specifically for printing tasks and come in various types, such as inkjet printers and laser printers.",
         products: [
           {
             img: Fire1,
@@ -750,9 +667,9 @@ const DataProducts = [
       {
         id: 2,
         img: Conventional1,
-        title: "Conventional Fire Alarm System",
+        title: "MF Printer",
         shortDesc:
-          "LeuNet ICT Solutions offers Conventional Fire Alarm Systems as part of our comprehensive fire safety solutions. Conventional Fire Alarm Systems are cost-effective and reliable systems designed to detect and alert occupants about the presence of fire or smoke in a building or facility.",
+          "Canon's MFP printers are available in various sizes and configurations to meet the needs of different users, from small home offices to large corporate environments. They often come with user-friendly interfaces and convenient features like mobile printing, cloud connectivity, and automatic duplex printing to enhance productivity and ease of use.",
         products: [
           {
             img: Conventional,
@@ -774,17 +691,18 @@ const DataProducts = [
     id: 6,
     thumbnail: thumbnail,
     img: PAS,
-    title: "Public Addressing System",
+    title: "Zkteco ",
     shortDesc:
       "LeuNet ICT Solutions offers Public Addressing Systems as part of our comprehensive communication solutions. Public Addressing Systems, also known as PA systems, are designed to provide clear and effective audio communication to a large audience in various public spaces or facilities.",
-    desc: "Public Addressing Systems utilize a combination of audio equipment, such as microphones, amplifiers, speakers, and control panels, to distribute sound and messages to designated areas or throughout an entire facility. These systems are widely used in a variety of environments, including schools, offices, airports, stadiums, shopping malls, and public transportation hubs.",
+    desc: "Zkteco is a leading provider of biometric and RFID-based security and time management solutions. They offer a range of products and solutions, including Time Attendance, Access Control, and Gate Entry systems. Here's a description of each.",
     childProducts: [
       {
         id: 1,
         img: personalPAS,
-        title: "Personal PAs",
+        title: "Time Attendance ",
         shortDesc:
-          "LeuNet ICT Solutions offers Personal PA (Personal Public Address) Systems as part of our communication solutions. Personal PA Systems are portable and wearable devices designed to provide individuals with a clear and personalized audio experience, particularly in situations where addressing a large audience or overcoming ambient noise is required.",
+          "Zkteco's Time Attendance system is designed to track and manage employee attendance and work hours accurately and efficiently. The system uses biometric technologies such as fingerprint recognition, facial recognition, or palm recognition, along with RFID cards or PIN codes, to identify and record employee attendance. Employees can clock in and out using their biometric data or RFID cards, eliminating the need for traditional timecards or manual processes.",
+
         products: [
           {
             img: personalPAS1,
@@ -803,9 +721,9 @@ const DataProducts = [
       {
         id: 2,
         img: MedPAS,
-        title: "Medium-sized PAs.",
+        title: "Access Control",
         shortDesc:
-          "LeuNet ICT Solutions offers Medium-sized PA (Public Address) Systems as part of our communication solutions. Medium-sized PA Systems are designed to provide clear and effective audio communication to larger audiences or in medium-sized venues such as conference rooms, auditoriums, houses of worship, and community halls.",
+          "Zkteco's Access Control system is designed to regulate and monitor access to secure areas within a building or premises. The system uses biometric or RFID-based credentials to grant or deny access to authorized personnel. Access Control systems enhance security by preventing unauthorized access and can be integrated with Time Attendance systems for seamless employee management.Key features of Zkteco's",
         products: [
           {
             img: MedPAS1,
@@ -824,9 +742,9 @@ const DataProducts = [
       {
         id: 3,
         img: Full,
-        title: "Full-scale PAs",
+        title: "Gate Entry",
         shortDesc:
-          "LeuNet ICT Solutions offers Full-scale PA (Public Address) Systems as part of our comprehensive communication solutions. Full-scale PA Systems are designed to provide clear and powerful audio communication to large audiences in various venues such as stadiums, arenas, concert halls, convention centers, and outdoor spaces.",
+          "Zkteco's Gate Entry system is a comprehensive solution for managing entry and exit points in secure locations, such as gated communities, residential complexes, or corporate campuses. The Gate Entry system uses similar biometric and RFID technologies to allow authorized individuals to access the premises conveniently and securely.",
         products: [
           {
             img: Full1,
@@ -844,123 +762,123 @@ const DataProducts = [
       },
     ],
   },
-  {
-    id: 7,
-    thumbnail: thumbnail,
-    img: StrCable,
-    title: "Structural Cable ",
-    shortDesc:
-      "LeuNet ICT Solutions offers comprehensive Structural Cable solutions to meet the connectivity needs of businesses and organizations. Our Structural Cable services are designed to provide reliable and efficient network infrastructure, ensuring seamless communication and data transmission within buildings or facilities.",
-    desc: "With LeuNet ICT Solutions' Structural Cable services, you can rely on a robust and scalable network infrastructure that enables efficient communication, data transfer, and connectivity within your organization. Our expertise in designing, installing, and maintaining Structural Cable systems ensures a reliable and future-proof solution for your networking needs.",
-    childProducts: [
-      {
-        id: 1,
-        img: UTP,
-        title: "UTP Cat 6/6A Cable",
-        shortDesc:
-          "UTP Cat 6/6A cable, offered by LeuNet ICT Solutions, is a type of structured cabling solution designed to support high-speed data transmission in Ethernet networks. Cat 6/6A (Category 6/6A) cables are an upgrade from the older Cat 5e cables and provide enhanced performance and bandwidth capabilities.",
-        products: [
-          {
-            img: UTP1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: UTP2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: UTP3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 2,
-        img: STcable,
-        title: "STP/FTP Cat 6/6A Cable ",
-        shortDesc:
-          "LeuNet ICT Solutions offers high-quality STP/FTP Cat 6/6A cables that meet industry standards and provide reliable and efficient data transmission. Whether it's for data centers, healthcare facilities, or other environments requiring enhanced shielding capabilities, our STP/FTP Cat 6/6A cables deliver the performance and reliability you need for your network infrastructure.",
-        products: [
-          {
-            img: STcable1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: STcable2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: STcable3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 3,
-        img: Fibber,
-        title: "Fibber Optic Cable ",
-        shortDesc:
-          "Fiber optic cable, offered by LeuNet ICT Solutions, is a high-performance cabling solution used for transmitting data, voice, and video signals over long distances at high speeds. Fiber optic cables consist of thin strands of optically pure glass or plastic that transmit information using pulses of light.",
+  // {
+  //   id: 7,
+  //   thumbnail: thumbnail,
+  //   img: StrCable,
+  //   title: "Structural Cable ",
+  //   shortDesc:
+  //     "LeuNet ICT Solutions offers comprehensive Structural Cable solutions to meet the connectivity needs of businesses and organizations. Our Structural Cable services are designed to provide reliable and efficient network infrastructure, ensuring seamless communication and data transmission within buildings or facilities.",
+  //   desc: "With LeuNet ICT Solutions' Structural Cable services, you can rely on a robust and scalable network infrastructure that enables efficient communication, data transfer, and connectivity within your organization. Our expertise in designing, installing, and maintaining Structural Cable systems ensures a reliable and future-proof solution for your networking needs.",
+  //   childProducts: [
+  //     {
+  //       id: 1,
+  //       img: UTP,
+  //       title: "UTP Cat 6/6A Cable",
+  //       shortDesc:
+  //         "UTP Cat 6/6A cable, offered by LeuNet ICT Solutions, is a type of structured cabling solution designed to support high-speed data transmission in Ethernet networks. Cat 6/6A (Category 6/6A) cables are an upgrade from the older Cat 5e cables and provide enhanced performance and bandwidth capabilities.",
+  //       products: [
+  //         {
+  //           img: UTP1,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: UTP2,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: UTP3,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 2,
+  //       img: STcable,
+  //       title: "STP/FTP Cat 6/6A Cable ",
+  //       shortDesc:
+  //         "LeuNet ICT Solutions offers high-quality STP/FTP Cat 6/6A cables that meet industry standards and provide reliable and efficient data transmission. Whether it's for data centers, healthcare facilities, or other environments requiring enhanced shielding capabilities, our STP/FTP Cat 6/6A cables deliver the performance and reliability you need for your network infrastructure.",
+  //       products: [
+  //         {
+  //           img: STcable1,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: STcable2,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: STcable3,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 3,
+  //       img: Fibber,
+  //       title: "Fibber Optic Cable ",
+  //       shortDesc:
+  //         "Fiber optic cable, offered by LeuNet ICT Solutions, is a high-performance cabling solution used for transmitting data, voice, and video signals over long distances at high speeds. Fiber optic cables consist of thin strands of optically pure glass or plastic that transmit information using pulses of light.",
 
-        products: [
-          {
-            img: Fibber1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: Fibber2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: Fibber3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 4,
-        img: FireCable,
-        title: "Fire Alarm Cable",
-        shortDesc:
-          "Fire alarm cable, offered by LeuNet ICT Solutions, is a specialized type of cabling used for connecting fire alarm systems and devices. These cables are specifically designed to meet the stringent requirements and safety standards of fire alarm installations, ensuring reliable communication and quick detection of fire incidents.",
-        products: [
-          {
-            img: FireCable1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: FireCable2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: FireCable3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-      {
-        id: 5,
-        img: Coaxial,
-        title: "Coaxial RG-59 Cable",
-        shortDesc:
-          "Coaxial RG-59 cable, offered by LeuNet ICT Solutions, is a type of coaxial cable widely used for various applications such as video surveillance systems, CCTV installations, and analog audio/video transmissions. RG-59 cables are designed to transmit high-frequency signals with minimal loss and interference.",
-        products: [
-          {
-            img: Coaxial1,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: Coaxial2,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-          {
-            img: Coaxial3,
-            name: "Lorem ipsum dolor sit amet consectetur",
-          },
-        ],
-      },
-    ],
-  },
+  //       products: [
+  //         {
+  //           img: Fibber1,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: Fibber2,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: Fibber3,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 4,
+  //       img: FireCable,
+  //       title: "Fire Alarm Cable",
+  //       shortDesc:
+  //         "Fire alarm cable, offered by LeuNet ICT Solutions, is a specialized type of cabling used for connecting fire alarm systems and devices. These cables are specifically designed to meet the stringent requirements and safety standards of fire alarm installations, ensuring reliable communication and quick detection of fire incidents.",
+  //       products: [
+  //         {
+  //           img: FireCable1,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: FireCable2,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: FireCable3,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 5,
+  //       img: Coaxial,
+  //       title: "Coaxial RG-59 Cable",
+  //       shortDesc:
+  //         "Coaxial RG-59 cable, offered by LeuNet ICT Solutions, is a type of coaxial cable widely used for various applications such as video surveillance systems, CCTV installations, and analog audio/video transmissions. RG-59 cables are designed to transmit high-frequency signals with minimal loss and interference.",
+  //       products: [
+  //         {
+  //           img: Coaxial1,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: Coaxial2,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //         {
+  //           img: Coaxial3,
+  //           name: "Lorem ipsum dolor sit amet consectetur",
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
 ];
 
 export default DataProducts;
