@@ -149,6 +149,12 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: Server,
     title: "Cisco",
+    subone: "Routers",
+    subtwo: "Switch",
+    subthree: "Access Points",
+    subFour: "FirWall",
+    subFive: "Unified Communcation",
+
     shortDesc:
       " LeuNet offers high-performance servers, delivering reliable and scalable computing power to support your organization's critical applications and data storage needs.",
     desc: "LeuNet provides high-performance servers designed to meet your organization's computing power and data storage needs.Cisco's primary focus is on designing, manufacturing, and selling a wide range of networking products and solutions that enable the transfer of data, voice, and video across networks..",
@@ -157,6 +163,7 @@ const DataProducts = [
         id: 1,
         img: NetTwo,
         title: "Routers ",
+
         shortDesc:
           " Cisco is renowned for its high-performance routers, which are devices that connect different networks and direct data traffic efficiently.",
         products: [
@@ -287,6 +294,11 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: Switch,
     title: "Dell ",
+    subone: "Server",
+    subtwo: "Storage",
+    subthree: "Computer",
+    subFour: "Hyper Coverged",
+
     shortDesc:
       "At LeuNet, we offer a comprehensive range of Network Switches to meet the networking needs of businesses. Our Network Switches are designed to provide reliable and high-performance connectivity, enabling efficient data transfer and network management. Our Network Switches come with various features and capabilities that cater to different network environments and requirements. Some key aspects of our Network Switches include:",
     desc: "LeuNet provides high-performance servers designed to meet your organization's computing power and data storage needs. Our reliable and scalable server solutions ensure seamless operation of critical applications and efficient data management. Whether you require physical servers for on-premises deployment or virtual servers in the cloud, we deliver tailored solutions with comprehensive server management. Trust LeuNet for the power and reliability that drives your organization's success.",
@@ -382,6 +394,12 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: PBX,
     title: "HPE",
+    subone: "Server",
+    subtwo: "Storage",
+    subthree: "Computer",
+    subFour: "Hyper Converged",
+    subFive: "Aruba Network",
+
     shortDesc:
       "LeuNet ICT Solutions offers a comprehensive PBX system that empowers organizations with efficient and reliable communication capabilities. Our PBX solution, tailored for small businesses, allows for seamless internal and external communication, enhancing productivity and customer service.",
     desc: "With our PBX system, you can connect multiple extensions within your organization, enabling easy and direct communication between employees. Whether your team is located in the same office or spread across different locations, our PBX solution ensures smooth and hassle-free connectivity. Our PBX system provides a range of advanced features designed to streamline your communication processes. You can enjoy features such as call routing, call forwarding, call waiting, voicemail, call recording, and conference calling. These features help you manage incoming calls effectively and improve collaboration among your team members.",
@@ -498,6 +516,13 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: CCtv,
     title: "Dahua ",
+    subone: "HDCVI Camera",
+    subtwo: "Ip Camera",
+    subthree: "AI Camera",
+    subFour: "PTZ Camera",
+    subFive: "Network Video Recorder",
+    subsix: "Digital Video Recorder",
+
     shortDesc:
       "LeuNet offers a comprehensive range of CCTV (Closed Circuit Television) cameras to help businesses enhance their security and surveillance capabilities. Our CCTV cameras are designed to provide reliable monitoring, deterrence, and documentation of activities in various environments.",
     desc: " leading manufacturer and supplier of security surveillance products and solutions. They offer a wide range of cameras and recording devices for various applications. Here's a description of some of their key products:",
@@ -635,6 +660,9 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: Fire,
     title: "Canon",
+    subone: "Printer ",
+    subtwo: "MF Printer ",
+
     shortDesc:
       "LeuNet ICT Solutions offers Fire Alarm Systems as part of our comprehensive safety and security solutions. Fire Alarm Systems are critical components of any building or facility, designed to detect and alert occupants about the presence of fire or smoke, allowing for timely evacuation and prompt response to mitigate fire-related risks.",
     desc: "manufacturer of imaging and optical products, including printers. They offer a variety of printers, including single-function printers and multi-function printers (MFPs). Here's a description of printers and MFP printers in Canon",
@@ -692,6 +720,10 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: PAS,
     title: "Zkteco ",
+    subone: "Time Attendance",
+    subtwo: "Access Control",
+    subthree: "Gate Entry",
+
     shortDesc:
       "LeuNet ICT Solutions offers Public Addressing Systems as part of our comprehensive communication solutions. Public Addressing Systems, also known as PA systems, are designed to provide clear and effective audio communication to a large audience in various public spaces or facilities.",
     desc: "Zkteco is a leading provider of biometric and RFID-based security and time management solutions. They offer a range of products and solutions, including Time Attendance, Access Control, and Gate Entry systems. Here's a description of each.",
