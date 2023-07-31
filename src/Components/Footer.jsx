@@ -100,9 +100,9 @@ export default function Footer() {
                 <li>
                   <a href="/services">Services</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="/solutions">Solutions</a>
-                </li>
+                </li> */}
                 <li>
                   <a href="/contact-us">Contact</a>
                 </li>

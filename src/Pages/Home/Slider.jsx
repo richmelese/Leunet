@@ -59,95 +59,95 @@ const Slider = () => {
         className="mySwiper"
         id="Log__swiper"
       >
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.dell.com/">
             {" "}
             <img src={Dell} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.hp.com/">
             {" "}
             <img src={Hp} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.cisco.com/">
             {" "}
             <img src={Cisco} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.nordencommunication.com/">
             <img src={Norden} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.apc.com/au/en/">
             <img src={Acp} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.mobotix.com/">
             {" "}
             <img src={Mobotix} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.panasonic.com">
             {" "}
             <img src={Panasonic} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.motorola.com/us/">
             {" "}
             <img src={Motorola} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.zkteco.com/en/">
             {" "}
             <img src={ZKT} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.kaspersky.com">
             {" "}
             <img src={Kaspersky} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.poly.com">
             {" "}
             <img src={Ploycome} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.axis.com/">
             {" "}
             <img src={Axis} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.hpe.com/">
             {" "}
             <img src={Hpe} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.beldon.com/">
             {" "}
             <img src={Bloden} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://www.lenovo.com/">
             {" "}
             <img src={Lenovo} alt="" />
           </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide id="swiper-slid">
           <a href="https://global.canon/">
             {" "}
             <img src={Canon} alt="" />

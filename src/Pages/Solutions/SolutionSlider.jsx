@@ -37,7 +37,7 @@ const SolutionSlider = () => {
                 <p className="small_title">Solutions</p>
                 <h3>Our Solutions</h3>
                 <p>
-                  Leunet ICT Solution provides customized and scalable
+                  LeuNet ICT Solution provides customized and scalable
                   technology solutions to meet the unique needs of businesses
                   and organizations of all sizes. Our solutions include advanced
                   networking and wireless communication, secure access control
@@ -70,7 +70,7 @@ const SolutionSlider = () => {
                 <p className="small_title">Solutions</p>
                 <h3>Our Solutions</h3>
                 <p>
-                  Leunet ICT Solution provides customized and scalable
+                  LeuNet ICT Solution provides customized and scalable
                   technology solutions to meet the unique needs of businesses
                   and organizations of all sizes. Our solutions include advanced
                   networking and wireless communication, secure access control
@@ -103,7 +103,7 @@ const SolutionSlider = () => {
                 <p className="small_title">Solutions</p>
                 <h3>Our Solutions</h3>
                 <p>
-                  Leunet ICT Solution provides customized and scalable
+                  LeuNet ICT Solution provides customized and scalable
                   technology solutions to meet the unique needs of businesses
                   and organizations of all sizes. Our solutions include advanced
                   networking and wireless communication, secure access control
@@ -136,7 +136,7 @@ const SolutionSlider = () => {
                 <p className="small_title">Solutions</p>
                 <h3>Our Solutions</h3>
                 <p>
-                  Leunet ICT Solution provides customized and scalable
+                  LeuNet ICT Solution provides customized and scalable
                   technology solutions to meet the unique needs of businesses
                   and organizations of all sizes. Our solutions include advanced
                   networking and wireless communication, secure access control
@@ -169,7 +169,7 @@ const SolutionSlider = () => {
                 <p className="small_title">Solutions</p>
                 <h3>Our Solutions</h3>
                 <p>
-                  Leunet ICT Solution provides customized and scalable
+                  LeuNet ICT Solution provides customized and scalable
                   technology solutions to meet the unique needs of businesses
                   and organizations of all sizes. Our solutions include advanced
                   networking and wireless communication, secure access control
@@ -202,7 +202,7 @@ const SolutionSlider = () => {
                 <p className="small_title">Solutions</p>
                 <h3>Our Solutions</h3>
                 <p>
-                  Leunet ICT Solution provides customized and scalable
+                  LeuNet ICT Solution provides customized and scalable
                   technology solutions to meet the unique needs of businesses
                   and organizations of all sizes. Our solutions include advanced
                   networking and wireless communication, secure access control

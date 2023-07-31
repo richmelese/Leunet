@@ -9,7 +9,7 @@ export default function GrowWithUs({ customClassName }) {
           <div className="title_sec">
             <h3>Are you ready to grow your business with us?</h3>
             <p className="small_title">
-              Unlock your business's full potential with Leunet ICT Solution.
+              Unlock your business's full potential with LeuNet ICT Solution.
               Our comprehensive technology solutions, expert services, and
               personalized support can help you achieve your growth goals and
               stay ahead of the competition. Contact us today to learn how we

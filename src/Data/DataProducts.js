@@ -149,10 +149,11 @@ const DataProducts = [
     thumbnail: thumbnail,
     img: Server,
     title: "Cisco",
-    subone: "Routers",
     subtwo: "Switch",
     subthree: "Access Points",
     subFour: "FirWall",
+    subone: "Routers",
+
     subFive: "Unified Communcation",
 
     shortDesc:
@@ -161,6 +162,7 @@ const DataProducts = [
     childProducts: [
       {
         id: 1,
+
         img: NetTwo,
         title: "Routers ",
 

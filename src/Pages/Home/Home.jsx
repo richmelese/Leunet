@@ -9,12 +9,12 @@ import HomeTestimonial from "./HomeTestimonial";
 import Footer from "../../Components/Footer";
 import Slider from "./Slider";
 import HomeMain from "./HomeMain";
-
+import HomeSecond from "./homesecond";
 export default function Home() {
   return (
-    <div className="home">
+    <div>
       <HomeMain />
-
+      {/* <HomeSecond /> */}
       {/* <HomeCollage /> */}
       <HomeChooseUs />
 
