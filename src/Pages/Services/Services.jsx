@@ -4,7 +4,7 @@ import GrowWithUs from "../../Components/GrowWithUs";
 import ServicesOurServices from "./ServicesOurServices";
 import ServicesServiceList from "./ServicesServiceList";
 import Footer from "../../Components/Footer";
-
+import SubFooter from "../../Components/SubFooter";
 export default function Services() {
   return (
     <div>
@@ -13,7 +13,8 @@ export default function Services() {
         <ServicesServiceList />
       </div>
       <GrowWithUs />
-      {/* <Footer /> */}
+      <Footer />
+      {/* <SubFooter /> */}
     </div>
   );
 }

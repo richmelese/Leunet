@@ -12,9 +12,9 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 // SwiperCore.use([Autoplay]);
 import background from "../../Assets/dashboard-1.png";
-import Homebg from "../../Assets/bgs2.png";
-import home2 from "../../Assets/BG.png";
-import Newbg from "../../Assets/bgbanner.png";
+import Homebg from "../../Assets/slidethree.png";
+import home2 from "../../Assets/slidetow.png";
+import Newbg from "../../Assets/slideone.png";
 
 const images = [dashboard_img, dashboard_img_1, dashboard_img_2];
 

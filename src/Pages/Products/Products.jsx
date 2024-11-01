@@ -16,8 +16,8 @@ export default function Products() {
         <ProductsProductList />
         {/* <ProductList /> */}
       </div>
-      <GrowWithUs />
-      {/* <Footer /> */}
+      {/* <GrowWithUs /> */}
+      <Footer />
     </div>
   );
 }

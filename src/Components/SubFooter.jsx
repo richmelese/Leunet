@@ -37,7 +37,7 @@ export default function Footer() {
   // }, [isIntersecting]);
 
   return (
-    <div className="footer" id="contact">
+    <div className="footer" id="sub__footer">
       <div className="container">
         <div className="logo_section">
           <img src={logo} />
